@@ -142,7 +142,7 @@ label {font-size:16px;}
 
 @charset "utf-8";
 /* CSS Document */
-body {font-family:"微軟正黑體", "蘋果儷中黑", "Microsoft JhengHei", Arial, sans-serif; word-break: normal;
+body {font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif; word-break: normal;
 	text-align:justify;}
 
 /*-----header 網站名稱-----*/
@@ -202,7 +202,7 @@ body {font-family:"微軟正黑體", "蘋果儷中黑", "Microsoft JhengHei", Ar
 }
 /*-----紅利館 bonus header-----*/
 .dividend_wrap span{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 50px;
 }
@@ -247,6 +247,12 @@ body {font-family:"微軟正黑體", "蘋果儷中黑", "Microsoft JhengHei", Ar
 	padding: 0;
 	border: 0;
 }
+/*-----delete-----*/
+.prod_delete_button{
+	border: 0;
+	background: 0;
+	outline: 0;
+}
 /*-----雙品商品列表-----*/
 .even_product_content_wrap{
 	padding: 0 5px;	
@@ -281,6 +287,7 @@ body {font-family:"微軟正黑體", "蘋果儷中黑", "Microsoft JhengHei", Ar
 .font_size_14{ font-size: 14px; }
 .font_size_16{ font-size: 16px; }
 .font_size_18{ font-size: 18px; }
+.font_size_20{ font-size: 20px; }
 .line_height_20{ line-height: 20px; }
 .line_height_30{ line-height: 30px; }
 .line_height_40{ line-height: 40px; }
