@@ -142,8 +142,11 @@ label {font-size:16px;}
 
 @charset "utf-8";
 /* CSS Document */
-body {font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif; word-break: normal;
-	text-align:justify;}
+body {
+	font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+	word-break: normal;
+	text-align:justify;
+}
 
 /*-----header 網站名稱-----*/
 .header_logo {
@@ -215,7 +218,7 @@ body {font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Ar
 .top_title{
 	font-size: 16px;
 	line-height: 40px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 /*-----橫向商品列表-----*/
 .horizontal_product_content{
@@ -271,6 +274,18 @@ body {font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Ar
 .odd_price_style{
 	font-size: 18px;
     font-weight: bold;
+}
+/*-----任務紅利通知-----*/
+.gift_img{
+	padding-bottom: 5px;
+}
+.gift_img_jump_padding{
+	animation: jump_padding .8s infinite linear; 
+}
+@keyframes jump_padding{ 
+	0%{ padding-bottom: 10px; }
+	50%{ padding-bottom: 5px; }
+	100%{ padding-bottom: 10px; }
 }
 /*-----快速共用-----*/
 .border_radius_5{ 
