@@ -605,6 +605,7 @@ hr{	margin: 0; }
 .member_header_wrap{
 	width:100%;
 	text-align:center;
+	position: relative;
 }
 .member_icon {
 	margin:0 3px;
