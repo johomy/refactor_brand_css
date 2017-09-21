@@ -214,6 +214,120 @@ hr{	margin: 0; }
 	margin-top: 7px;
 	text-align: center;
 }
+/*-----會員專區 member function (for member.html)-----*/
+.member_information_wrap{
+	padding: 10px;
+}
+.member_information_wrap ul li{
+	margin: 5px 0;
+}
+.member_information_img{
+	width: 25px;
+	height: 25px;
+}
+.member_button{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+}
+.announcement_content{
+	max-height: 98px;
+	overflow: hidden;
+}
+.announcement_contents_wrap ul li{
+	max-height: 85px;
+	overflow: hidden;
+}
+/*-----會員基本資料 (for member_profile.html)-----*/
+/*-----member top-----*/
+.arrow_left_wrap{
+	width: 15%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.arrow_left_wrap a{
+	padding: 8px 12px;
+}
+.arrow_left_photo{
+	width: 25px;
+	height: 25px;
+}
+/*-----member form-----*/
+.account_button{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+}
+.gender_wrap input + label{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+.edm_enabled_wrap label{
+	margin: 6px;
+}
+/*-----member button-----*/
+.FB_button{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	position: relative;
+}
+.FB_button img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+.confirm_button{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+}
+/*-----會員訂單紀錄 (for member_order.html)-----*/
+/*-----member top-----*/
+.member_top_wrap{
+	position: relative;
+}
+/*-----尚無訂單資料-----*/
+.no_order_wrap{
+	text-align: center;
+}
+/*-----訂單資料-----*/
+.order_content_wrap{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+/*-----訂單狀態-----*/
+.order_status_wrap{
+	position: absolute;
+	bottom:12px;
+	right: 10px;
+}
+.order_status_style{
+	width: 50px;
+	height: 50px;
+}
+/*-----會員註冊 (for member_register.html)-----*/
+.merber_register_form_wrap input{
+	width: 100%;
+	margin: 10px 0;
+}
+.accept_wrap input{
+	width: 25px;
+	height: 25px;
+	margin: 0;
+}
+.accept_wrap label{
+	margin: 1px 0 0 6px;
+}
 /*-----紅利館 bonus header-----*/
 .bonus_header_wrap{
 	width: 100%;
@@ -458,7 +572,8 @@ hr{	margin: 0; }
 }
 
 /*---頁面 input 設定---*/
-.payment_method_wrap input{
+.payment_method_wrap input,
+.gender_wrap input{
 	display: none;
 }
 .payment_method_wrap input + label,
@@ -466,27 +581,33 @@ hr{	margin: 0; }
 .receive_wrap input,
 .family_wrap input,
 .invoice_wrap input,
+.name_wrap input,
+.email_wrap input,
+.address_wrap input,
+.authentication_Code_wrap input,
+.password_form_wrap input,
 select option,
 select{
 	width: 100%;
 	margin: 5px 0;
 }
-.checkbox_input_wrap input{
+.checkbox_input_wrap input,
+.edm_enabled_wrap input{
 	width: 25px;
 	height: 25px;
 }
 
 /*-----任務紅利通知-----*/
 .gift_img{
-	width: 25px;
+	width: 30px;
 }
 .gift_img_jump_position{
 	position: absolute;
-	bottom: 5px;
+	top: 5px;
 	animation: jump_position .8s infinite linear; 
 }
 @keyframes jump_position{ 
-	0%{ bottom: 10px; }
-	50%{ bottom: 5px; }
-	100%{ bottom: 10px; }
+	0%{ top: 10px; }
+	50%{ top: 5px; }
+	100%{ top: 10px; }
 }

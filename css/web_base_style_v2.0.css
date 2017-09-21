@@ -65,6 +65,149 @@ body {
 	-moz-border-radius: 5px; /* Firefox */
 	-webkit-border-radius: 5px; /* Safari, Chrome */
 }
+/*-----會員專區 member function (for member.html)-----*/
+.member_button{
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	border: 1px solid;
+	border-radius: 5px; /* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+}
+.btn{
+	padding: 0;
+}
+.btn-info{
+	border: 0;
+}
+/*member頁籤*/
+.member_controls li{
+	border-radius: 10px 30px 0 0;
+}
+/*-----會員基本資料 (for member_profile.html)-----*/
+/*-----member form-----*/
+.merber_form_wrap{
+	padding: 20px;
+}
+.merber_form_wrap h4{
+	font-size: 16px;
+	/*font-weight: bold;*/
+	padding-bottom: 5px;
+}
+.account_wrap span{
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.account_button{
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+}
+.account_button a{
+	font-size: 16px;
+	line-height: 40px;
+}
+.gender_wrap input + label{
+	padding: 10px;
+	border: 1px solid;
+	transition: 0.35s ease-in-out;
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+.gender_wrap input + label:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.gender_wrap input + label:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.edm_enabled_wrap label{
+	font-size: 16px;
+}
+/*-----member button-----*/
+.FB_button{
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+}
+.FB_button a{
+	font-size: 16px;
+	line-height: 40px;
+}
+.confirm_button{
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+}
+.confirm_button a{
+	font-size: 16px;
+	line-height: 40px;
+}
+/*-----會員手機認證 (for sms_send.html)-----*/
+.authentication_Code_wrap{
+	padding: 20px;
+}
+/*-----會員修改密碼 (for member_pwd.html)-----*/
+.password_form_wrap{
+	padding: 20px;
+}
+.password_form_wrap h4{
+	font-size: 16px;
+	/*font-weight: bold;*/
+	padding-bottom: 5px;
+}
+.new_password_wrap dd{
+	font-size: 14px;
+	padding-left: 10px;
+}
+/*-----會員訂單紀錄 (for member_order.html)-----*/
+/*-----尚無訂單資料-----*/
+.no_order_wrap p{
+	font-size: 20px;
+	font-weight: bold;
+}
+/*-----訂單資料-----*/
+.order_content_wrap{
+	border: 1px solid;
+	border-radius: 5px; /* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+	padding: 15px 10px;
+}
+.order_top_wrap{
+	border-bottom: 1px dashed;
+}
+/*-----訂單狀態-----*/
+.order_status_style{
+	border-radius: 50%; /* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 50%; /* Firefox */
+	-webkit-border-radius: 50%; /* Safari, Chrome */
+	border:2px solid; 
+}
+.order_status_style span{
+	line-height: 50px;
+	font-weight: bold;
+}
+/*-----會員註冊 (for member_register.html)-----*/
+.merber_register_form_wrap{
+	padding: 20px;
+}
+.merber_register_form_wrap h4{
+	font-size: 16px;
+	/*font-weight: bold;*/
+	padding-bottom: 5px;
+}
+.accept_wrap input{
+	padding: 0;
+}
+.accept_wrap label{
+	font-size: 16px;
+}
 /*-----紅利館 bonus header-----*/
 .dividend_wrap span{
 	font-size: 18px;
@@ -201,6 +344,12 @@ body {
 .receive_wrap input,
 .family_wrap input,
 .invoice_wrap input,
+.name_wrap input,
+.email_wrap input,
+.address_wrap input,
+.password_form_wrap input,
+.merber_register_form_wrap input,
+.authentication_Code_wrap input,
 select option,
 select{
 	padding: 10px;
