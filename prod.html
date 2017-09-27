@@ -60,21 +60,21 @@
       <div class="search_wrap basic_color Border">
         <div class="search_bar">
           <input type="text" placeholder="請輸入關鍵字" id="search_value" />
-          <button type="button" class="search_btn">搜尋</button>
+          <button type="button" class="search_btn box_shadow_white">搜尋</button>
           <div class="clear"></div>
         </div>
       </div>
-      <!-- 會員專區 member header -->
-      <div class="member_header_wrap"><!-- 與紅利館做切換 -->
+      <!-- 會員專區 member header (與紅利館做切換)-->
+      <div class="member_header_wrap">
         <div class="inner_box95 mg-c">
           <div class="float-l">
-            <span class="member_icon">
+            <div class="member_icon float-l m-t-10">
               <img src="images/menu_icon_member.png"/>
-            </span>
-            <span>0912345678</span>
+            </div>
+            <div class="float-l">0912345678</div>
           </div>
-          <span class="logout_btn float-r"><a href="#">登出</a></span>
-          <p class="clear"></p>
+          <span class="logout_btn float-r box_shadow_white"><a href="#">登出</a></span>
+          <div class="clear"></div>
         </div>
       </div>
       <!-- 紅利館 bonus header -->
@@ -181,16 +181,22 @@
         <!-- 頁籤/商品內容區塊-->
         <div class="background_white inner_box" id="tabs_content">
           <ul class="controls">
-            <li class="col-xs-3 controls_tabl table_1"><a href="#table_1">商品介紹</a></li><!-- max words 4(繁體中文) -->
-            <li class="col-xs-3 controls_tabl table_2"><a href="#table_2">熱賣商品</a></li>
-            <li class="col-xs-3 controls_tabl table_3"><a href="#table_3">店家查詢</a></li>
+            <li class="col-xs-3 controls_tabl table_1">
+              <a href="#table_1">商品介紹</a>
+            </li><!-- max words 4(繁體中文) -->
+            <li class="col-xs-3 controls_tabl table_2">
+              <a href="#table_2">熱賣商品</a>
+            </li>
+            <li class="col-xs-3 controls_tabl table_3">
+              <a href="#table_3">店家查詢</a>
+            </li>
           </ul>
           <li class="clear"></li>
           <!-- 頁籤內容區塊 -->
           <section class="tab_contents">
             <!-- 商品介紹內容 -->
             <article id="table_1" class="max_width_600 mg-c background_white p-t-10 p-b-10 p-l-5 p-r-5 ta-c">
-              
+              商品介紹內容
             </article>
             <!-- 熱賣商品內容 -->
             <article id="table_2">
@@ -268,9 +274,9 @@
 
     <footer class="footer_menu_wrap Border">
       <ul>
+        <li class="menu_icon member"><a href="#">會員專區</a></li>
         <li class="menu_icon fbmsg"><a href="#">線上客服</a></li>
         <li class="menu_icon buy"><a href="#">結帳</a></li>
-        <!-- <li class="menu_icon member"><a href="#">會員專區</a></li> -->
         <!-- <li class="menu_icon order"><a href="#">訂單查詢</a></li> -->
         <!-- <li class="menu_icon contact"><a href="#">關於我們</a></li> -->
         <li class="menu_icon_buy buy_buy"><a href="#">購買</a></li>
