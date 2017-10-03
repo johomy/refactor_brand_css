@@ -42,17 +42,26 @@ hr{	margin: 0; }
 .icon_bar {
 	display:block;
 	width:24px;
-	height:3px;
+	height:4px;
 	margin-top:6px;
+	border-radius: 2px;
 }
+/*20171002修改 原height:3px; 新增border-radius: 2px;*/
 /*-----header 網站名稱-----*/
 .header_mid {
 	width:55%;
+	height: 60px;
+	text-align: center;
 	margin: 0 auto;
 	overflow:hidden;
 }
-.header_logo {
+/*20171002新增 height: 60px; text-align: center;*/
+/*.header_logo {
 	text-align: center;
+}*/
+.header_logo_img{
+	width: 120px;
+	margin-top: 18px;
 }
 /*-----首頁 icon-----*/
 .home_icon{
@@ -65,12 +74,14 @@ hr{	margin: 0; }
 }
 .home_icon a {	
 	text-align:center;
-	padding-top:17.5px;	
+	padding-top:15px;	
 }
+/*20171002修改 原padding-top:17.5px;*/
 .home_icon img {
-	width:25px;
-	height:25px;
+	width:30px;
+	height:30px;
 }
+/*20171002修改 原width:25px; height:25px;*/
 /*-----搜尋 icon-----*/
 .search_icon{
 	width:12%;
@@ -82,12 +93,14 @@ hr{	margin: 0; }
 }
 .search_icon a{
 	text-align:center;
-	padding-top:17.5px;
+	padding-top:15px;	
 }
+/*20171002修改 原padding-top:17.5px;*/
 .search_icon img {
-	width:25px;
-	height:25px;
+	width:30px;
+	height:30px;
 }
+/*20171002修改 原width:25px; height:25px;*/
 /*-----搜尋 content-----*/
 .search_wrap {
 	width:100%;
@@ -155,7 +168,12 @@ hr{	margin: 0; }
 	text-align: center;
 	float: left;
 }
-.menu_icon a {
+.menu_icon img{
+	width: 30px;
+	height: 30px;
+	margin-top: 3px;
+}
+/*.menu_icon a {
 	height:50px;
 	padding-top:30px;
 }
@@ -194,7 +212,7 @@ hr{	margin: 0; }
 	background-repeat: no-repeat;
 	background-position: center 2px;
 	background-size: 28px 28px;
-}
+}*/
 /*-----會員專區 member header-----*/
 .member_header_wrap{
 	width:100%;
@@ -205,10 +223,11 @@ hr{	margin: 0; }
 	margin:0 3px;
 }
 .member_icon img {
-	width:25px;
-	height:25px;
+	width:30px;
+	height:30px;
 	vertical-align:-5px;
 }
+/*20171002修改 原width:25px; height:25px;*/
 .logout_btn{
 	width: 60px;
 	margin-top: 7px;

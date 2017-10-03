@@ -83,7 +83,7 @@ body {
 }
 /*member頁籤*/
 .member_controls li{
-	border-radius: 10px 30px 0 0;
+	border-radius: 10px 10px 0 0;
 }
 /*-----會員基本資料 (for member_profile.html)-----*/
 /*-----member form-----*/
@@ -284,6 +284,7 @@ body {
 /*---商品介紹頁面(for prod.html)---*/
 .btn{
 	padding: 0;
+	border: 0;
 }
 .btn-info{
 	border: 0;
@@ -293,7 +294,7 @@ body {
 	padding: 0;
 }
 .controls li{
-	border: 1px solid;
+	border: 1.5px solid;
 }
 .controls li a{
 	line-height: 40px;
@@ -311,7 +312,7 @@ body {
 .Border_r{
 	border-right: 1px solid;
 }
-.menu_icon_buy{
+.menu_icon_buy a{
 	font-size: 20px;
 	line-height: 50px;
 }
