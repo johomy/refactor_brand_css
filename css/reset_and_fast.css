@@ -504,6 +504,7 @@ a, button, .btn:focus, .btn:active{
 .line_height_30{ line-height: 30px; }
 .line_height_40{ line-height: 40px; }
 .line_height_50{ line-height: 50px; }
+.line_height_80{ line-height: 80px; }
 
 /*-----快速共用(color)-----*/
 .background_white{background: white;}

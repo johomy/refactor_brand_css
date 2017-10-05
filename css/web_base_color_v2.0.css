@@ -29,11 +29,18 @@ hr{
 	background-color: #f78c00;
 }
 /*20171003修改 原background:#9bd5e0;*/
-.basic_button_color{
+.basic_button_color_one{
 	background-color: #f78c00;
 	color: #fff;
 }
+.basic_button_color_two{
+	background-color: #000;
+	color: #fff;
+}
 /*-----hamburger icon-----*/
+.header_wrap{
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5)
+}
 .icon_bar{
 	background: #000;
 }
@@ -84,6 +91,10 @@ hr{
 	background:#ddd;
 	color:#000;
 }
+.member_title_wrap{
+	background: #b3b3b3;
+	color: #fff;
+}
 /*20171002修改 background:#666; color:#fff;*/
 .logout_btn{
 	background:#333;
@@ -102,15 +113,15 @@ hr{
 .bonus_font_Red a{
 	color: red;
 }
+.square_button a{
+	color: #fff;
+}
 /*member頁籤*/
 .member_controls li{
 	box-shadow: 1px 1px 10px #999;
 }
 /*---會員基本資料 (for member_profile.html)---*/
 /*member form*/
-.account_button{
-	background: #9bd5e0;
-}
 .account_button a{
 	color: #fff;
 }
@@ -123,9 +134,6 @@ hr{
 }
 .FB_button a{
 	color: #fff;
-}
-.confirm_button{
-	background: #9bd5e0;
 }
 .confirm_button a{
 	color: #fff;
@@ -148,7 +156,7 @@ hr{
 }
 /*訂單狀態*/
 .order_status_style{
-	border-color: #9bd5e0;
+	border-color: #f78c00;
 }
 /*---會員註冊 (for member_register.html)---*/
 .accept_wrap label{
@@ -205,10 +213,9 @@ hr{
 }
 /*商品頁籤*/
 .controls li{
-	background-color: #000;
+	background-color: #b3b3b3;
 	border-color: #fff;
 }
-/*20171003修改 background-color: #B3B3B3;*/
 .controls li a{
 	color: #fff;
 }
@@ -225,8 +232,33 @@ hr{
 }
 
 /*---加入購物車頁面(for shopping_cart.html)---*/
-.shopping_button_wrap a{
+.shopping_button_left a{
+	color: #f78c00;
+}
+.shopping_button_right a{
 	color: #fff;
+}
+
+/*---footer 關於我們 (for brand.html,shipping.html,return.html,contact.html)---*/
+/*品牌介紹(brand.html)*/
+.brand_introduction_wrap li{
+	color: #666;
+}
+/*運送方式(shipping.html)*/
+.transport_wrap li{
+	color: #666;
+}
+/*退貨說明(return.html)*/
+.Anti-cheat_wrap ul{
+	border-color: #F78C00;
+}
+.Anti-cheat_NO{
+	background: #F78C00;
+	color: #fff;
+}
+/*聯絡我們(contact.html)*/
+.customer_service_content{
+	border-color: #666;
 }
 
 /*---頁面 input 設定---*/
