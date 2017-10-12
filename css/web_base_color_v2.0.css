@@ -144,7 +144,7 @@ hr{
 	color: #fff;
 }
 /*---會員修改密碼 (for member_pwd.html)---*/
-.new_password_wrap dd{
+.new_password_wrap ol li{
 	color: #666;
 }
 /*---會員訂單紀錄 (for member_order.html)---*/

@@ -171,9 +171,9 @@ body {
 	/*font-weight: bold;*/
 	padding-bottom: 5px;
 }
-.new_password_wrap dd{
+.new_password_wrap ol li{
+	list-style-type: decimal;
 	font-size: 14px;
-	padding-left: 10px;
 }
 /*-----會員訂單紀錄 (for member_order.html)-----*/
 /*-----尚無訂單資料-----*/
