@@ -169,18 +169,18 @@ hr{
 }
 /*-----紅利館 整體色系-----*/
 .bonus_basic_color{
-	background: #f09290;
+	background: #c75957;
 	color: #fff;
 }
 .bonus_basic_font_color{
-	color: #f09290;
+	color: #c75957;
 }
 .bonus_basic_border_color{
-	border-color: #f09290;
+	border-color: #c75957;
 }
 /*-----紅利館 bonus header-----*/
 .bonus_header_color{
-	background: #EE8072;
+	background: #a94442;
 }
 .dividend_wrap span{
 	color: #fff;
@@ -196,7 +196,7 @@ hr{
 	border-color: #ccc;
 }
 .button_style{
-	background: #f09290;
+	background: #c75957;
 	color: #fff;
 }
 /*-----雙品商品列表-----*/

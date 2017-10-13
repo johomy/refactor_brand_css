@@ -87,6 +87,9 @@ body {
 .btn-info{
 	border: 0;
 }
+.btn-danger{
+	border: 0;
+}
 .square_button a{
 	display: inline-block;
 	font-size: 16px;
@@ -228,6 +231,11 @@ body {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 50px;
+}
+/*-----紅利館 bonus_thx-----*/
+.bonus_thx_button_wrap button{
+	font-size: 16px;
+	padding: 10px;
 }
 /*-----大標設定-----*/
 .top_title{

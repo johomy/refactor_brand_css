@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NEWART-紅利館搜尋結果頁</title>
+<link rel="stylesheet" type="text/css" href="css/eric_meyer_reset.min.css" />
+<link rel="stylesheet" type="text/css" href="css/Normalize_v1.0.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/jquery_ui.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.1.12.0.css" /> -->
+<script type="text/javascript" src="js/jquery_1.11.0.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery_migrate_1.2.1.min.js"></script> -->
+<script type="text/javascript" src="js/jquery_ui.min.js"></script>
+<!-- self page -->
+<link rel="stylesheet" type="text/css" href="js/bootstrap3/css/bootstrap.css" />
+<script type="text/javascript" src="js/bootstrap3/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="css/web_base_struct_v2.0.css" />
+<link rel="stylesheet" type="text/css" href="css/web_base_style_v2.0.css" />
+<link rel="stylesheet" type="text/css" href="css/web_base_color_v2.0.css" />
+<link rel="stylesheet" type="text/css" href="css/reset_and_fast.css"><!-- bootstrap清除+fast便利包 -->
+<link rel="stylesheet" type="text/css" href="css/bonus_color_v1.0.css" />
+<script type="text/javascript" src="js/header_v1.js"></script> <!-- header_v1.js整合 -->
+<script type="text/javascript" src="js/main.min.js"></script> <!-- 紅利館用JS -->
+</head>
+<body>
+  <section class="main_wrap Border">
+    <!-- gotop icon 共用 -->
+    <div class="gotop_icon Border">
+      <a href="#">
+        <img src="images/gotop.png"/>
+      </a>
+    </div>
+    <!-- header_wrap 共用 -->
+    <header class="header_wrap basic_color Border">
+      <!-- hamburger icon -->
+      <div class="hamburger_icon Border">
+        <span class="icon_bar"></span>
+        <span class="icon_bar"></span>       
+        <span class="icon_bar"></span>
+      </div>
+      <!-- header 網站名稱(文字)max words 8 (繁體中文) 12(英文) -->
+      <!-- <div class="header_mid">
+        <a href="#">
+          <h1 class="header_logo">NEWART</h1>
+        </a>
+      </div> -->
+      <!-- header 網站名稱(圖片) -->
+      <div class="header_mid">
+        <a href="#">
+          <img src="images/NEWART_header.png" class="header_logo_img">
+        </a>
+      </div>
+      <!-- 首頁 icon -->
+      <div class="home_icon Border">
+        <a href="#">
+          <img src="images/home.png"/>
+        </a>
+      </div>
+      <!-- 搜尋 icon -->
+      <div class="search_icon Border">
+        <a href="#">
+          <img src="images/search.png"/>
+        </a>
+      </div>
+      <!-- 搜尋 content -->
+      <div class="search_wrap basic_color Border">
+        <div class="search_bar">
+          <input type="text" placeholder="請輸入關鍵字" id="search_value" />
+          <button type="button" class="search_btn box_shadow_white">搜尋</button>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <!-- 會員專區 member header (與紅利館做切換)-->
+      <!-- <div class="member_header_wrap">
+        <div class="inner_box95 mg-c">
+          <div class="float-l">
+            <div class="member_icon float-l m-t-10">
+              <img src="images/menu_icon_member_0.png"/>
+            </div>
+            <div class="float-l">0912345678</div>
+          </div>
+          <span class="logout_btn float-r box_shadow_white"><a href="#">登出</a></span>
+          <div class="clear"></div>
+        </div>
+      </div> -->
+      <!-- 紅利館 bonus header (與會員專區做切換) -->
+      <div class="bonus_header_wrap bonus_header_color">
+        <div class="dividend_wrap">
+          <span><img src="images/shipment.png" class="dividend_img"></span>
+          <div class="dividend">
+            <span>8888</span><!-- 目前紅利點數 四位數上限 -->
+            <span>點</span>
+          </div>
+        </div>
+        <div class="bonus_header_logo"><a href="#">紅利館</a></div><!-- 連結至紅利館首頁 -->
+      </div>
+    </header>
+
+    <div class="blank60"></div><!-- 官網header用 -->
+    <div class="blank50"></div><!-- 會員專區與紅利館共用 -->
+
+    <section class="content_wrap">
+      <!-- hamburger content -->
+      <article class="content_left Border">
+        <div class="hamburger_list_wrap Border">
+          <ul id="hamburger_menu" class="Border">
+            <li class="basic_font_color Border" ui_id="1">頭皮出油</li> <!-- max words 18(繁體中文) -->
+            <ul class="hamburger_show basic_color Border" id="ui_id_1">
+              <li><a href="#">全套加強調理組</a></li><!-- max words 18(繁體中文) -->
+              <li><a href="#">控油頭皮保養液</a></li>
+              <li><a href="#">油脂調理洗髮精</a></li>
+              <li><a href="#">油脂調理護髮素</a></li>
+            </ul>
+            <li class="basic_font_color Border" ui_id="2">頭皮屑癢</li> <!-- max words 18(繁體中文) -->
+            <ul class="hamburger_show basic_color Border" id="ui_id_2">
+              <li><a href="#">全套加強調理組</a></li><!-- max words 18(繁體中文) -->
+              <li><a href="#">止癢頭皮保養液</a></li>
+              <li><a href="#">去屑止癢洗髮精</a></li>
+            </ul>
+            <li class="basic_font_color Border" ui_id="3">毛躁打結</li> <!-- max words 18(繁體中文) -->
+            <ul class="hamburger_show basic_color Border" id="ui_id_3">
+              <li><a href="#">★萬人見證★10秒瞬護霜</a></li><!-- max words 18(繁體中文) -->
+              <li><a href="#">免沖洗護髮</a></li>
+              <li><a href="#">染燙洗護組</a></li>
+              <li><a href="#">洗髮精</a></li>
+              <li><a href="#">護髮素</a></li>
+              <li><a href="#">護髮霜</a></li>
+            </ul>
+          </ul>
+        </div>
+      </article>
+      <!-- main content -->
+      <article class="content_right">
+        <!-- 商品頁面區 -->
+        <article class="block_type_wrap"><!--橫向商品列表(for紅利館) Wrap Start-->
+          <!-- 搜尋大標 -->
+          <div class="inner_box Border">
+            <div class="inner_box blank40 background_gray font_color_White font_size_16 line_height_40 p-l-5">
+              <span>搜尋 ></span>
+              <span>搜尋關鍵字</span>
+            </div><!-- max words 15(繁體中文) -->
+          </div>
+          <!-- 橫向商品列表(for紅利館) -->
+          <ul class="row horizontal_product_wrap background_white Border">
+            <li class="col-xs-12 horizontal_product_content Border">
+              <!-- 左邊產品圖片區 -->
+              <div class="horizontal_list_photo Border float-l">
+                <img src="images/prod3.jpg" class="product_photo_img220">
+              </div>
+              <!-- 右邊產品資訊區 -->
+              <div class="Product_content_wrap">
+                <!-- 右邊產品內文 -->
+                <div class="prod_title_wrap">
+                  <div class="blank20 inner_box overflow_h">
+                    <h4 class="horizontal_product_name">紅寶石能量瞬護隔離霜</h4><!-- max word 12(繁體中文) -->
+                  </div>
+                  <div class="horizontal_product_description">
+                    <p>紅寶石隔離霜5ml</p><!-- max word 24(繁體中文) -->
+                  </div>
+                </div>
+                <!-- 右邊產品價格區 -->
+                <div class="bonus_Quantity_wrap">
+                  <label>售　價：$ 49</label>
+                  <br>
+                  <label class="unit_price_text">紅利點：</label>
+                  <span class="horizontal_price_style price" sn="0" unit_price="1">1</span> <!-- unit_price為單價設定 -->
+                  <span class="horizontal_price_style">點</span>
+                  <br>              
+                  <label class="Subtotal_tetx">小　計：</label>
+                  <span class="horizontal_price_style Subtotal_tetx points" id="point_0">1</span><!-- 單價計算顯示 id="point_要互相對應上層的sn -->
+                  <span class="horizontal_price_style Subtotal_tetx">點</span>
+                  <br>
+                  <button type="button" name="cut_back" class="Quantity_wrap_button btn btn-default cut_back">-</button>
+                  <input type="text" name="Quantity" value="1" readonly="readonly" class="Quantity_wrap_input Quantity" />
+                  <button type="button" name="addition" class="Quantity_wrap_button btn btn-default addition">+</button>
+                  <p class="font_color_Red blank20" id="error_Quantity_0"></p><!-- max word 12(繁體中文) -->
+                  <!-- 右邊button區 -->
+                  <div class="blank30 Border button_wrap">
+                    <button type="button" class="button_style btn btn-danger box_shadow_white">立即兌換</button><!-- 直接前往兌換清單 -->
+                    <button type="button" class="button_style btn btn-danger box_shadow_white">加入清單</button><!-- 將兌換商品加入購物車 -->
+                    <a href="#" class="button_style btn btn-danger box_shadow_white">官網購買</a><!-- 前往商城購買 -->
+                  </div>
+                  <!-- delete -->
+                  <!-- <button type="button" class="prod_delete_button" sn="1" deliver_id="1">
+                    <img src="images/prod_delete.png">
+                  </button> -->
+                </div>
+              </div>
+              <!-- 預留留白 -->
+              <!-- <div class="Product_content_wrap float-l"></div> -->
+            </li>
+            <div class="clear"></div>
+            <hr>
+            <li class="col-xs-12 horizontal_product_content Border">
+              <!-- 左邊產品圖片區 -->
+              <div class="horizontal_list_photo Border float-l">
+                <img src="images/prod3.jpg" class="product_photo_img220">
+              </div>
+              <!-- 右邊產品資訊區 -->
+              <div class="Product_content_wrap">
+                <!-- 右邊產品內文區 -->
+                <div class="prod_title_wrap">
+                  <div class="blank20 inner_box overflow_h">
+                    <h4 class="horizontal_product_name">壹貳參肆伍陸柒捌玖拾壹貳</h4><!-- max word 12(繁體中文) -->
+                  </div>
+                  <div class="horizontal_product_description">
+                    <p>壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆</p><!-- max word 24(繁體中文) -->
+                  </div>
+                </div>
+                <!-- 右邊產品價格區 -->
+                <div class="bonus_Quantity_wrap">
+                  <label>售　價：</label>
+                  <span>$888</span>
+                  <br>
+                  <label class="unit_price_text">紅利點：</label>
+                  <span class="horizontal_price_style price" sn="1" unit_price="100">100</span> <!-- unit_price為單價設定 -->
+                  <span class="horizontal_price_style">點</span>
+                  <br>            
+                  <label class="Subtotal_tetx">小　計：</label>
+                  <span class="horizontal_price_style Subtotal_tetx points" id="point_1">100</span><!-- 單價計算顯示 id="point_要互相對應上層的sn -->
+                  <span class="horizontal_price_style Subtotal_tetx">點</span>
+                  <br>
+                  <button type="button" name="cut_back" class="Quantity_wrap_button btn btn-default cut_back">-</button>
+                  <input type="text" name="Quantity" value="1" readonly="readonly" class="Quantity_wrap_input Quantity" />
+                  <button type="button" name="addition" class="Quantity_wrap_button btn btn-default addition">+</button>
+                  <p class="font_color_Red blank20" id="error_Quantity_1"></p><!-- max word 12(繁體中文) -->
+                  <!-- 右邊button區 -->
+                  <div class="blank30 Border button_wrap">
+                    <button type="button" class="button_style btn btn-danger box_shadow_white">立即兌換</button><!-- 直接前往兌換清單 -->
+                    <button type="button" class="button_style btn btn-danger box_shadow_white">加入清單</button><!-- 將兌換商品加入購物車 -->
+                    <a href="#" class="button_style btn btn-danger box_shadow_white">官網購買</a><!-- 前往商城購買 -->
+                  </div>
+                  <!-- delete -->
+                  <!-- <button type="button" class="prod_delete_button" sn="1" deliver_id="1">
+                    <img src="images/prod_delete.png">
+                  </button> -->
+                </div>
+              </div>
+              <!-- 預留留白 -->
+              <!-- <div class="Product_content_wrap float-l"></div> -->
+            </li>
+            <div class="clear"></div>
+            <hr>
+          </ul>
+        </article><!--橫向商品列表(for紅利館) Wrap End-->
+        <article>
+          <div class="copyright">
+            <p>秒創超網訂購專線</p>
+            <p>(02)8228-0580</p>
+          </div>
+        </article>
+      </article>
+    </section>
+    <!-- footer無切換圖片 -->
+    <!-- <footer class="footer_menu_wrap Border">
+      <ul>
+        <li class="menu_icon member"><a href="#">會員專區</a></li>
+        <li class="menu_icon fbmsg"><a href="#">線上客服</a></li>
+        <li class="menu_icon buy"><a href="#">兌換清單</a></li>
+        <li class="menu_icon order"><a href="#">兌換紀錄</a></li>
+        <li class="menu_icon search"><a href="#">紅利品搜尋</a></li>
+        <li class="menu_icon contact"><a href="#">關於我們</a></li>
+      </ul>
+    </footer> -->
+    <!-- footer切換圖片 -->
+    <footer class="footer_menu_wrap Border">
+      <ul>
+        <li class="menu_icon member">
+          <div class="ta-c">
+            <a href="#"><img src="images/menu_icon_member_0.png" file_name="menu_icon_member_" class="ori_img"></a>
+            <a href="#">會員專區</a>
+          </div>
+        </li>
+        <li class="menu_icon fbmsg">
+          <div class="ta-c">
+            <a href="#"><img src="images/menu_icon_fbmsg_0.png" file_name="menu_icon_fbmsg_" class="ori_img"></a>
+            <a href="#">線上客服</a>
+          </div>
+        </li>
+        <li class="menu_icon buy">
+          <div class="ta-c">
+            <a href="#"><img src="images/menu_icon_buy_0.png" file_name="menu_icon_buy_" class="ori_img"></a>
+            <a href="#">兌換清單</a>
+          </div>
+        </li>
+        <li class="menu_icon order">
+          <div class="ta-c">
+            <a href="#"><img src="images/menu_icon_order_0.png" file_name="menu_icon_order_" class="ori_img"></a>
+            <a href="#">兌換紀錄</a>
+          </div>
+        </li>
+        <li class="menu_icon search">
+          <div class="ta-c">
+            <a href="#"><img src="images/menu_icon_search_0.png" file_name="menu_icon_search_" class="ori_img"></a>
+            <a href="#">紅利品搜尋</a>
+          </div>
+        </li>
+        <!-- <li class="menu_icon contact">
+          <div class="ta-c">
+            <img src="images/menu_icon_contact_0.png" file_name="menu_icon_contact_" class="ori_img">
+            <a href="#">關於我們</a>
+          </div>
+        </li> -->
+      </ul>
+    </footer>
+  </section>
+</body>
+</html>
