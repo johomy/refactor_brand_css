@@ -90,6 +90,9 @@ body {
 .btn-danger{
 	border: 0;
 }
+.btn-warning{
+	border: 0;
+}
 .square_button a{
 	display: inline-block;
 	font-size: 16px;
@@ -394,6 +397,10 @@ body {
 }
 .step_arrow{
 	border-style: solid;
+}
+.confirm_thx_button_wrap button{
+	font-size: 16px;
+	padding: 10px;
 }
 /*全家門市資訊*/
 .family_button{

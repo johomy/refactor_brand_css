@@ -344,6 +344,11 @@ hr{	margin: 0; }
 	bottom:12px;
 	right: 10px;
 }
+.order_status_wrap_thx{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
 .order_status_style{
 	width: 50px;
 	height: 50px;
