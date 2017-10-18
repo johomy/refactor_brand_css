@@ -328,3 +328,7 @@ input:checked{
 .family_button a{
 	color: #fff;
 }
+/*---加購功能Button---*/
+.purchase_wrap .btn{
+	color: #fff;
+}
