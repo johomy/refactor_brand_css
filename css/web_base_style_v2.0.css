@@ -432,7 +432,7 @@ body {
 .payment_method_wrap input + label,
 .buyer_wrap input,
 .receive_wrap input,
-.family_wrap input,
+.Items_flow_wrap input,
 .invoice_wrap input,
 .name_wrap input,
 .email_wrap input,
@@ -457,13 +457,13 @@ select{
 .payment_method_wrap li,
 .buyer_wrap li,
 .receive_wrap li,
-.family_wrap li,
+.Items_flow_wrap li,
 .invoice_wrap li{
 	font-size: 16px;
 }
 .buyer_wrap h4,
 .receive_wrap h4,
-.family_wrap h4,
+.Items_flow_wrap h4,
 .invoice_wrap h4{
 	/*font-weight: bold;*/
 	padding-bottom: 5px;
