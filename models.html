@@ -14,12 +14,17 @@
 <!-- self page -->
 <link rel="stylesheet" type="text/css" href="js/bootstrap3/css/bootstrap.css" />
 <script type="text/javascript" src="js/bootstrap3/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slick/slick.css"><!-- 輪播圖 -->
+<link rel="stylesheet" type="text/css" href="css/slick/slick_theme.css"><!-- 輪播圖 -->
+<script type="text/javascript" src="js/slick.min.js"></script><!-- 輪播圖 -->
+<script type="text/javascript" src="js/index_v1.js"></script><!-- 輪播圖 -->
 <link rel="stylesheet" type="text/css" href="css/web_base_struct_v2.0.css" />
 <link rel="stylesheet" type="text/css" href="css/web_base_style_v2.0.css" />
 <link rel="stylesheet" type="text/css" href="css/web_base_color_v2.0.css" />
 <link rel="stylesheet" type="text/css" href="css/reset_and_fast.css"><!-- bootstrap清除+fast便利包 -->
 <!-- <script type="text/javascript" src="js/header_v1.js"></script> -->
 <script type="text/javascript" src="js/prod_models_v1.js"></script>
+
 
 </head>
 <body>
@@ -133,124 +138,188 @@
       <!-- main content -->
       <article class="content_right">
         <div class="inner_box Border">
-        <!--大標(max word 17(繁體中文))-->
-        <div class="inner_box top_title basic_title_color font_size_18">加入購物車</div>
-        <a href="#">
-          <img src="images/close.png" class="close_icon">
-        </a>
-      </div>
-      <div class="Border product_introduction_wrap">
-        <ul class="Border p-b-15">
-          <!-- 商品圖片768x645 -->
-          <li>
-            <img src="images/prod1.jpg" class="product_photo_img600">
-          </li>
-          <!-- 商品名稱(max word 19(繁體中文)) -->
-          <!-- <li>
-            <h4 class="line_height_30 blank30 overflow_h font_size_16 font_color_Black m-t-10 p-l-5 p-r-5">
-              ✦全台首創降溫護膚香水✦
-            </h4>
-          </li> -->
-          <!-- 商品規格(簡易 max word 44(繁體中文)) -->
-          <li class="blank40 overflow_h m-t-10 p-l-5 p-r-5">
-            ✦全台首創降溫護膚香水✦<br>
-            3度C冰鎮舒緩青春露禮盒_6支裝
-          </li>
-        </ul>
-        <hr>
-        <form class="Border p-b-10 p-l-15 p-r-15">
-          <input type="hidden" name="prod_id" value="" id="prod_id">
-          <input type="hidden" name="prod_name" value="" id="prod_name">
-          <input type="hidden" name="tax" value="" id="tax">
-          <div class="m-t-5 m-b-5">
-            <label for="prod_size">請選規格：</label>
-            <select name="prod_model" id="prod_model" class="border_radius_5">
-              <option>3度C冰鎮青春露禮盒 $1680</option>
-              <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
-            </select>
-          </div>
-          <div class="m-t-5 m-b-5">
-            <label for="prod_choose">請選數量：</label>
-            <select name="prod_qty" id="prod_qty" class="border_radius_5">
-              <option>1</option>
-              <option>20</option>
-            </select>
-          </div>
-          <div class="m-t-5 m-b-5">
-            <label for="prod_transport">配送方式：</label>
-            <select name="prod_delivery" id="prod_delivery" class="border_radius_5">
-              <option>全家超商取貨</option>
-              <option>宅配</option>
-            </select>
-          </div>
-        </form>
-        <h4 class="Border font_size_16 font_color_Black m-t-10 m-b-20 p-l-10 p-r-10">
-          提醒您：訂單金額若超過五千元，運送方式將自動轉為『宅配』，謝謝。
-        </h4>
-        <hr>
-        <!-- 熱賣商品內容 -->
-        <article id="table_2">
           <!--大標(max word 17(繁體中文))-->
-          <div class="inner_box Border">
-            <div class="inner_box top_title basic_title_color">加購商品</div>
-          </div>
-          <ul class="row even_product_wrap background_white Border p-b-10">
-            <li class="col-xs-6 even_product_content_wrap Border">
-              <div class="even_product_content Border">
-                <!-- 商品圖片區 -->
-                <div class="Border even_photo_wrap">
-                  <a href="#">
-                    <img src="images/prod3.jpg" class="product_photo_img220">
-                  </a>
-                </div>
-                <!-- 商品內文區 -->
-                <div class="prod_title_wrap m-t-5 m-b-5">
-                  <!-- 商品名稱(max word 10(繁體中文)) -->
-                  <!-- <div class="blank20 inner_box overflow_h"> -->
-                    <!-- <h4>壹貳參肆伍陸柒捌玖拾</h4> -->
-                  <!-- </div> -->
-                  <!-- 商品規格(簡易 max word 20(繁體中文)) -->
-                  <div class="blank40">
-                    <p>✦全台首創降溫護膚香水✦<br>3度C冰鎮舒緩青春露禮盒_6支裝</p>
-                  </div>
-                </div>
-                <!-- 商品價格區 -->
-                <!-- <div class="even_Quantity_wrap m-t-10">
-                  <span class="unit_price_text">加購價：</span>
-                  <span class="even_price_style">$</span>
-                  <span class="even_price_style price">200</span>
-                  <span class="MICRO Original_price">$400</span>
-                </div> -->
-                <div class="m-t-5 m-b-5">
-                  <!-- <label for="prod_size">請選規格：</label> -->
-                  <select name="prod_model" id="prod_model" class="border_radius_5">
-                    <option>3度C冰鎮青春露禮盒 $1680</option>
-                    <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
-                  </select>
-                </div>
-                <!-- 加購價功能 -->
-                <ul class="purchase_wrap">
-                  <li class="float-l">
-                    <select class="blank40 line_height_40 border_radius_5 p-r-15 p-t-0 p-b-0">
-                    <option>1</option>
-                    <option>20</option>
-                  </select>
-                  </li>
-                  <li class="float-r m-t-5" >
-                    <a href="#" class="blank40 line_height_40 btn box_shadow_white basic_button_color_two font_size_16 p-l-20 p-r-20">
-                      加購
-                    </a>
-                  </li>
-                  <li class="clear"></li>
-                </ul>
-              </div>
-              <hr>
+          <div class="inner_box top_title basic_title_color font_size_18">加入購物車</div>
+          <a href="#">
+            <img src="images/close.png" class="close_icon">
+          </a>
+        </div>
+        <div class="Border product_introduction_wrap">
+          <ul class="Border p-b-15">
+            <!-- 商品圖片768x645 -->
+            <li>
+              <img src="images/prod1.jpg" class="product_photo_img600">
             </li>
-            
+            <!-- 商品名稱(max word 19(繁體中文)) -->
+            <!-- <li>
+              <h4 class="line_height_30 blank30 overflow_h font_size_16 font_color_Black m-t-10 p-l-5 p-r-5">
+                ✦全台首創降溫護膚香水✦
+              </h4>
+            </li> -->
+            <!-- 商品規格(簡易 max word 44(繁體中文)) -->
+            <li class="blank40 overflow_h m-t-10 p-l-5 p-r-5">
+              ✦全台首創降溫護膚香水✦<br>
+              3度C冰鎮舒緩青春露禮盒_6支裝
+            </li>
           </ul>
-        </article>
-        <div class="clear"></div>
-      </div>
+          <hr>
+          <form class="Border p-b-10 p-l-15 p-r-15">
+            <input type="hidden" name="prod_id" value="" id="prod_id">
+            <input type="hidden" name="prod_name" value="" id="prod_name">
+            <input type="hidden" name="tax" value="" id="tax">
+            <div class="m-t-5 m-b-5">
+              <label for="prod_size">請選規格：</label>
+              <select name="prod_model" id="prod_model" class="border_radius_5">
+                <option>3度C冰鎮青春露禮盒 $1680</option>
+                <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
+              </select>
+            </div>
+            <div class="m-t-5 m-b-5">
+              <label for="prod_choose">請選數量：</label>
+              <select name="prod_qty" id="prod_qty" class="border_radius_5">
+                <option>1</option>
+                <option>20</option>
+              </select>
+            </div>
+            <div class="m-t-5 m-b-5">
+              <label for="prod_transport">配送方式：</label>
+              <select name="prod_delivery" id="prod_delivery" class="border_radius_5">
+                <option>全家超商取貨</option>
+                <option>宅配</option>
+              </select>
+            </div>
+          </form>
+          <h4 class="Border font_size_16 font_color_Black m-t-10 m-b-20 p-l-10 p-r-10">
+            提醒您：訂單金額若超過五千元，運送方式將自動轉為『宅配』，謝謝。
+          </h4>
+          <hr>
+          <!-- 加購商品內容 -->
+          <article>
+            <!--大標(max word 17(繁體中文))-->
+            <div class="inner_box Border">
+              <div class="inner_box top_title basic_title_color">加購商品</div>
+            </div>
+            <section class="position_r">
+              <button type="button" class="slick-prev">Previou</button>
+              <ul class="row odd_product_wrap background_white Border single-item">
+                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border">
+                  <div class="odd_product_content Border">
+                    <!-- 商品圖片區 -->
+                    <div class="Border odd_photo_wrap">
+                      <a href="#">
+                        <img src="images/prod3.jpg" class="product_photo_img400">
+                      </a>
+                    </div>
+                    <!-- 商品內文區 -->
+                    <div class="prod_title_wrap m-t-5 m-b-5">
+                      <!-- 商品名稱(max word 22(繁體中文)) -->
+                      <!-- <div class="blank20 inner_box overflow_h">
+                        <h4 class="line_height_20">粉紅奇蹟柔感原液套組 25ml*2入組+ 送$500專業護髮券</h4>
+                      </div> -->
+                      <!-- 商品規格(簡易 max word 44(繁體中文)) -->
+                      <div class="blank40">
+                        <p>壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆</p>
+                      </div>
+                    </div>
+                    <!-- 商品價格區 -->
+                    <div class="odd_Quantity_wrap blank50">
+                      <label class="unit_price_text">售價：</label>
+                      <span class="odd_price_style">$</span>
+                      <span class="odd_price_style price">699</span><br>
+                      <!-- <span class="MICRO Original_price">$1,200</span> -->
+                      <label class="unit_price_text">小計：</label>
+                      <span class="odd_price_style">$</span>
+                      <span class="odd_price_style price">699</span>
+                    </div>
+                    <!-- 選擇加購規格 -->
+                    <div class="m-t-5 m-b-5">
+                      <!-- <label for="prod_size">請選規格：</label> -->
+                      <select name="prod_model" id="prod_model" class="border_radius_5">
+                        <option>3度C冰鎮青春露禮盒 $1680</option>
+                        <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
+                      </select>
+                    </div>
+                    <!-- 加購價功能 -->
+                    <ul class="purchase_wrap">
+                      <li class="float-l">
+                        <label>請選數量：</label>
+                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0">
+                        <option>1</option>
+                        <option>20</option>
+                      </select>
+                      </li>
+                      <li class="float-r m-t-5" >
+                        <a href="#" class="blank40 line_height_40 btn box_shadow_white basic_button_color_two font_size_16 p-l-20 p-r-20">
+                          加購
+                        </a>
+                      </li>
+                      <li class="clear"></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border">
+                  <div class="odd_product_content Border">
+                    <!-- 商品圖片區 -->
+                    <div class="Border odd_photo_wrap">
+                      <a href="#">
+                        <img src="images/prod3.jpg" class="product_photo_img400">
+                      </a>
+                    </div>
+                    <!-- 商品內文區 -->
+                    <div class="prod_title_wrap m-t-5 m-b-5">
+                      <!-- 商品名稱(max word 22(繁體中文)) -->
+                      <!-- <div class="blank20 inner_box overflow_h">
+                        <h4 class="line_height_20">粉紅奇蹟柔感原液套組 25ml*2入組+ 送$500專業護髮券</h4>
+                      </div> -->
+                      <!-- 商品規格(簡易 max word 44(繁體中文)) -->
+                      <div class="blank40">
+                        <p>壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆伍陸柒捌玖拾壹貳參肆</p>
+                      </div>
+                    </div>
+                    <!-- 商品價格區 -->
+                    <div class="odd_Quantity_wrap blank50">
+                      <label class="unit_price_text">售價：</label>
+                      <span class="odd_price_style">$</span>
+                      <span class="odd_price_style price">699</span><br>
+                      <!-- <span class="MICRO Original_price">$1,200</span> -->
+                      <label class="unit_price_text">小計：</label>
+                      <span class="odd_price_style">$</span>
+                      <span class="odd_price_style price">699</span>
+                    </div>
+                    <!-- 選擇加購規格 -->
+                    <div class="m-t-5 m-b-5">
+                      <!-- <label for="prod_size">請選規格：</label> -->
+                      <select name="prod_model" id="prod_model" class="border_radius_5">
+                        <option>3度C冰鎮青春露禮盒 $1680</option>
+                        <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
+                      </select>
+                    </div>
+                    <!-- 加購價功能 -->
+                    <ul class="purchase_wrap">
+                      <li class="float-l">
+                        <label>請選數量：</label>
+                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0">
+                        <option>1</option>
+                        <option>20</option>
+                      </select>
+                      </li>
+                      <li class="float-r m-t-5" >
+                        <a href="#" class="blank40 line_height_40 btn box_shadow_white basic_button_color_two font_size_16 p-l-20 p-r-20">
+                          加購
+                        </a>
+                      </li>
+                      <li class="clear"></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <button type="button" class="slick-next">Next</button>
+            </section>
+          </article>
+          <div class="clear"></div>
+          <hr>
+        </div>
+        <!-- 購買鈕 -->
         <div class="shopping_button_wrap blank80">
           <div class="shopping_button_left Border btn box_shadow_black border_Orange">
             <img src="images/shopping-02.png" class="shopping_cart_photo m-t-5">
@@ -262,13 +331,13 @@
           </div>
           <div class="clear"></div>
         </div>
-      
-      <!-- <article>
-        <div class="copyright">
-          <p>秒創超網訂購專線</p>
-          <p>(02)8228-0580</p>
-        </div>
-      </article> -->
+        
+        <!-- <article>
+          <div class="copyright">
+            <p>秒創超網訂購專線</p>
+            <p>(02)8228-0580</p>
+          </div>
+        </article> -->
       </article>
     </section>
 
@@ -318,5 +387,12 @@
       </ul>
     </footer> -->
   </section>
+  <script type="text/javascript">
+    $(function(){
+      $('.single-item').slick({
+        arrows: true
+      });
+    });
+  </script>
 </body>
 </html>
