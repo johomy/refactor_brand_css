@@ -57,3 +57,32 @@ function addToCart(cart_obj,checkout){
     }
   });
 }
+// 20171023加購商品計算
+$(function(){
+  $(".odd_product_content_wrap").each(function(){
+    // reset
+    var prod_id = $(this).attr("prod_id");
+    setTotal(prod_id);
+  });
+  //active
+  $(".prod_model").change(function(){
+    var prod_id = $(this).attr("prod_id");
+    // console.log(prod_id);
+    setTotal(prod_id);
+  });
+  $(".qty").change(function(){
+    var prod_id = $(this).attr("prod_id");
+    // console.log(prod_id);
+    setTotal(prod_id);
+  }); 
+});
+function setTotal(prod_id){
+  var total_price = 0;
+  var price = $("option:selected","#prod_model_" + prod_id).attr("unit_price");
+  var qty = $("#qty_" + prod_id).val();
+  total_price = price * qty;
+  $("#ori_price_" + prod_id).html(price);
+  $("#total_price_" + prod_id).html(total_price);
+  // console.log(prod_id);
+  // console.log(price,qty);
+}

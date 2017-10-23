@@ -24,8 +24,6 @@
 <link rel="stylesheet" type="text/css" href="css/reset_and_fast.css"><!-- bootstrap清除+fast便利包 -->
 <!-- <script type="text/javascript" src="js/header_v1.js"></script> -->
 <script type="text/javascript" src="js/prod_models_v1.js"></script>
-
-
 </head>
 <body>
   <section class="main_wrap Border">
@@ -200,9 +198,8 @@
               <div class="inner_box top_title basic_title_color">加購商品</div>
             </div>
             <section class="position_r">
-              <button type="button" class="slick-prev">Previou</button>
               <ul class="row odd_product_wrap background_white Border single-item">
-                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border">
+                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border" prod_id="1">
                   <div class="odd_product_content Border">
                     <!-- 商品圖片區 -->
                     <div class="Border odd_photo_wrap">
@@ -225,27 +222,27 @@
                     <div class="odd_Quantity_wrap blank50">
                       <label class="unit_price_text">售價：</label>
                       <span class="odd_price_style">$</span>
-                      <span class="odd_price_style price">699</span><br>
+                      <span class="odd_price_style price" id="ori_price_1"></span><br>
                       <!-- <span class="MICRO Original_price">$1,200</span> -->
                       <label class="unit_price_text">小計：</label>
                       <span class="odd_price_style">$</span>
-                      <span class="odd_price_style price">699</span>
+                      <span class="odd_price_style price" id="total_price_1"></span>
                     </div>
                     <!-- 選擇加購規格 -->
                     <div class="m-t-5 m-b-5">
                       <!-- <label for="prod_size">請選規格：</label> -->
-                      <select name="prod_model" id="prod_model" class="border_radius_5">
-                        <option>3度C冰鎮青春露禮盒 $1680</option>
-                        <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
+                      <select name="prod_model" id="prod_model_1" class="border_radius_5 prod_model" prod_id="1">
+                        <option value="1" unit_price="100">3度C冰鎮青春露禮盒 $100</option>
+                        <option value="2" unit_price="1000">【買六送一】3度C冰鎮青春露禮盒 $1000</option>
                       </select>
                     </div>
                     <!-- 加購價功能 -->
                     <ul class="purchase_wrap">
-                      <li class="float-l">
+                      <li class="inner_box60 float-l">
                         <label>請選數量：</label>
-                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0">
-                        <option>1</option>
-                        <option>20</option>
+                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0 qty" prod_id="1" id="qty_1">
+                        <option value="1">1</option>
+                        <option value="20">20</option>
                       </select>
                       </li>
                       <li class="float-r m-t-5" >
@@ -257,7 +254,7 @@
                     </ul>
                   </div>
                 </li>
-                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border">
+                <li class="inner_box85 odd_product_content_wrap mg-c p-t-10 p-b-10 Border" prod_id="2">
                   <div class="odd_product_content Border">
                     <!-- 商品圖片區 -->
                     <div class="Border odd_photo_wrap">
@@ -280,27 +277,27 @@
                     <div class="odd_Quantity_wrap blank50">
                       <label class="unit_price_text">售價：</label>
                       <span class="odd_price_style">$</span>
-                      <span class="odd_price_style price">699</span><br>
+                      <span class="odd_price_style price" id="ori_price_2"></span><br>
                       <!-- <span class="MICRO Original_price">$1,200</span> -->
                       <label class="unit_price_text">小計：</label>
                       <span class="odd_price_style">$</span>
-                      <span class="odd_price_style price">699</span>
+                      <span class="odd_price_style price" id="total_price_2"></span>
                     </div>
                     <!-- 選擇加購規格 -->
                     <div class="m-t-5 m-b-5">
                       <!-- <label for="prod_size">請選規格：</label> -->
-                      <select name="prod_model" id="prod_model" class="border_radius_5">
-                        <option>3度C冰鎮青春露禮盒 $1680</option>
-                        <option>【買六送一】3度C冰鎮青春露禮盒 $10080</option>
+                      <select name="prod_model" id="prod_model_2" class="border_radius_5 prod_model" prod_id="2">
+                        <option value="1" unit_price="200">3度C冰鎮青春露禮盒 $200</option>
+                        <option value="2" unit_price="2000">【買六送一】3度C冰鎮青春露禮盒 $2000</option>
                       </select>
                     </div>
                     <!-- 加購價功能 -->
                     <ul class="purchase_wrap">
-                      <li class="float-l">
+                      <li class="inner_box60 float-l">
                         <label>請選數量：</label>
-                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0">
-                        <option>1</option>
-                        <option>20</option>
+                        <select class="blank40 line_height_40 border_radius_5 inner_box40 p-r-15 p-t-0 p-b-0 qty" prod_id="2" id="qty_2">
+                        <option value="1">1</option>
+                        <option value="20">20</option>
                       </select>
                       </li>
                       <li class="float-r m-t-5" >
@@ -313,7 +310,6 @@
                   </div>
                 </li>
               </ul>
-              <button type="button" class="slick-next">Next</button>
             </section>
           </article>
           <div class="clear"></div>
