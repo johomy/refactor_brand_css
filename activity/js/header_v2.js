@@ -1,21 +1,123 @@
 /*---1111囤貨節頁面使用JS---*/
 
-$(function() {
-  // footer menu_icon點擊換色 20171002增加圖片切換功能
-  $(".activity_menu_icon").click(function(){
-    // reset
-    $(".activity_menu_icon div").removeClass("active");
-    $(".ori_img").each(function(){ 
-      var file = $(this).attr("file_name");
-      $(this).attr("src",'images/'+file+"0.jpg");
-    });
-    //active
-    $(this).children(".activity_menu_icon div").addClass("active");
-    var file_name = $("img",this).attr("file_name");
-    $("img",this).attr("src","images/"+file_name+"1.png");
-    $('html,body').animate({scrollTop:$($("a",this).attr("href")).offset().top+-62+"px"},800);
-    return false;
+$(function(){
+  // header
+  var header_html = "";
+  header_html += '<div class="header_mid">'
+  header_html += '<a href="#">'
+  header_html += '<img src="images/NEWART_header.png" class="header_logo_img">'
+  header_html += '</a>'
+  header_html += '</div>'
+  $(".header_wrap").html(header_html);
+  // 輪播圖
+  var slick_obj = {
+                    "slider_bn_1" : {
+                                      "class_name" : "slider_bn",
+                                      "href_path" : "https://goo.gl/q54o7q",
+                                      "img_path" : "images/768x375-01.jpg"
+                                    },
+                    "slider_bn_2" : {
+                                      "class_name" : "slider_bn",
+                                      "href_path" : "https://goo.gl/2nBNA1",
+                                      "img_path" : "images/768x375-02.jpg"
+                                    },
+                    "slider_bn_3" : {
+                                      "class_name" : "slider_bn",
+                                      "href_path" : "https://goo.gl/N5gCCF",
+                                      "img_path" : "images/768x375-03.jpg"
+                                    },
+                    "slider_bn_4" : {
+                                      "class_name" : "slider_bn",
+                                      "href_path" : "#",
+                                      "img_path" : "images/768x375-04.jpg"
+                                    },
+                    "slider_bn_5" : {
+                                      "class_name" : "slider_bn",
+                                      "href_path" : "https://goo.gl/NTQZwj",
+                                      "img_path" : "images/768x375-05.jpg"
+                                    }
+                  }
+  var slick_html = "";
+  slick_html += '<div class="block_model">'
+  slick_html += '<section class="regular slider inner_box">'
+  $.each(slick_obj,function(key,value){
+    slick_html += '<div class="' + value.class_name + '">'
+    slick_html += '<a href="' + value.href_path + '">'
+    slick_html += '<img src="' + value.img_path + '">'
+    slick_html += '</a>'
+    slick_html += '</div>'
   });
+  slick_html += '</section>'
+  slick_html += '</div>'
+  $(".big_bn_wrap").html(slick_html);
+});
+
+$(function(){
+  var discount_obj = {
+                        "gift_box_1" : {
+                                       "href_path" : "https://goo.gl/yuLtPr",
+                                       "img_path" : "images/1.jpg"
+                                      },
+                        "gift_box_2" : {
+                                       "href_path" : "https://goo.gl/TKfP2Z",
+                                       "img_path" : "images/2.jpg"
+                                      },
+                        "gift_box_3" : {
+                                       "href_path" : "https://goo.gl/WrwKcr",
+                                       "img_path" : "images/3.jpg"
+                                      },
+                        "gift_box_4" : {
+                                       "href_path" : "https://goo.gl/FFqPNL",
+                                       "img_path" : "images/4.jpg"
+                                      },
+                        "gift_box_5" : {
+                                       "href_path" : "https://goo.gl/S1qaQQ",
+                                       "img_path" : "images/5.jpg"
+                                      },
+                        "gift_box_6" : {
+                                       "href_path" : "https://goo.gl/mVgkrq",
+                                       "img_path" : "images/6.jpg"
+                                      },
+                        "gift_box_7" : {
+                                       "href_path" : "https://goo.gl/UrFDBN",
+                                       "img_path" : "images/7.jpg"
+                                      },
+                        "gift_box_8" : {
+                                       "href_path" : "https://goo.gl/AZf4N6",
+                                       "img_path" : "images/8.jpg"
+                                      },
+                        "gift_box_9" : {
+                                       "href_path" : "https://goo.gl/THmvzV",
+                                       "img_path" : "images/9.jpg"
+                                      },
+                        "gift_box_10" : {
+                                       "href_path" : "https://goo.gl/sFh1sv",
+                                       "img_path" : "images/10.jpg"
+                                      },
+                        "gift_box_11" : {
+                                       "href_path" : "https://goo.gl/XPRDhJ",
+                                       "img_path" : "images/11.jpg"
+                                      },
+                        "gift_box_12" : {
+                                       "href_path" : "",
+                                       "img_path" : "images/all_12.jpg"
+                                      }
+                      }
+  var gift_box_html = "";
+  gift_box_html += '<a href="https://goo.gl/UuaufG" id="anchor_1">'
+  gift_box_html += '<img src="images/750x140-02.jpg">'
+  gift_box_html += '</a>'
+  gift_box_html += '<ul>'
+  $.each(discount_obj,function(key,value){
+    gift_box_html += '<li class="col-xs-6 p-r-0 p-l-0 p-t-0 p-b-0">'
+    gift_box_html += '<a href="' + value["href_path"] + '">'
+    gift_box_html += '<img src="' + value["img_path"] + '">'
+    gift_box_html += '</a>'
+    gift_box_html += '</li>'
+  });
+  gift_box_html += '<li class="clear"></li>'
+  gift_box_html += '</ul>'
+  $(".article_1").html(gift_box_html);
 });
 
 $(function(){
@@ -353,8 +455,8 @@ $(function(){
                                 }
                   }
   var date = new Date().toISOString().slice(0,10);
-  // var date = "2017-11-01";
-  var days = new Date(2017,11,0).getDate();
+  // var date = "2017-11-27";
+  var days = new Date().getDate();
 
  // table
   var table_html = "";
@@ -368,7 +470,7 @@ $(function(){
   });
   table_html += '<li class="clear"></li>'
   table_html += '</ul>'
-  $("nav").html(table_html);
+  $(".article_2_table").html(table_html);
 
   // content
   var content_html = "";
@@ -386,7 +488,7 @@ $(function(){
     });
     content_html += '</ul>'
   });
-  $(".tab_contents").html(content_html);
+  $(".article_2_contents").html(content_html);
   // 點擊table做換圖加底色
   $("#bar a").click(function(){
     // reset
@@ -440,4 +542,118 @@ $(function(){
       });
     }
   });  
+});
+
+$(function(){
+  // 怎麼買最划算
+  var FB_content_html = "";
+  FB_content_html += '<a href="#" id="anchor_3">'
+  FB_content_html += '<img src="images/750x140-05.jpg" >'
+  FB_content_html += '</a>'
+  FB_content_html += '<ul class="m-t-20">'
+  FB_content_html += '<li class="ta-c">'
+  FB_content_html += '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewarthaircare%2Fvideos%2F1981316782091391%2F&show_text=1&width=320" width="320" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>'
+  FB_content_html += '</li>'
+  FB_content_html += '</ul>'
+  $(".article_3").html(FB_content_html);
+  // 加入會員再賺紅利
+  var article_4_html = "";
+  article_4_html += '<a href="https://goo.gl/2jZ8D3" id="anchor_4">'
+  article_4_html += '<img src="images/750x140-01.jpg" >'
+  article_4_html += '</a>'
+  article_4_html += '<ul class="m-b-20">'
+  article_4_html += '<li>'
+  article_4_html += '<a href="https://goo.gl/p2NzUA">'
+  article_4_html += '<img src="images/768x375_member.jpg">'
+  article_4_html += '</a>'
+  article_4_html += '</li>'
+  article_4_html += '<li class="m-t-10 m-b-10 ta-c">'
+  article_4_html += '<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=large&mobile_iframe=true&width=110&height=28&appId" width="110" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>'
+  article_4_html += '</li>'
+  article_4_html += '<li>'
+  article_4_html += '<img src="images/Description.jpg">'
+  article_4_html += '</li>'
+  article_4_html += '<li class="col-xs-12 col-sm-6 m-t-5 m-b-5 p-r-5 p-l-5">'
+  article_4_html += '<div class="FB_button inner_box btn box_shadow_white">'
+  article_4_html += '<img src="images/FB_img.png">'
+  article_4_html += '<a href="https://goo.gl/eAyaoK">加入Newart聽見你頭髮的聲音</a>'
+  article_4_html += '</div>'
+  article_4_html += '</li>'
+  article_4_html += '<li class="col-xs-12 col-sm-6 m-t-5 m-b-5 p-r-5 p-l-5">'
+  article_4_html += '<div class="line_button inner_box btn box_shadow_white">'
+  article_4_html += '<img src="images/line_logo.png">'
+  article_4_html += '<a href="https://line.me/R/ti/p/%40ngq1692">加入LINE@得知最新消息</a>'
+  article_4_html += '</div>'
+  article_4_html += '</li>'
+  article_4_html += '<li class="clear"></li>'
+  article_4_html += '</ul>'
+  $(".article_4").html(article_4_html);
+});
+
+$(function(){
+  var footer_obj = {
+                      "anchor_1" : {
+                                      "class_name" : "ori_img",
+                                      "file_name" : "120x120_1_",
+                                      "href_path" : "#anchor_1",
+                                      "img_path" : ["images/120x120_1_0.jpg",
+                                                    "images/120x120_1_1.png"]
+                                    },
+                      "anchor_2" : {
+                                      "class_name" : "ori_img",
+                                      "file_name" : "120x120_2_",
+                                      "href_path" : "#anchor_2",
+                                      "img_path" : ["images/120x120_2_0.jpg",
+                                                    "images/120x120_2_1.png"]
+                                    },
+                      "anchor_3" : {
+                                      "class_name" : "ori_img",
+                                      "file_name" : "120x120_3_",
+                                      "href_path" : "#anchor_3",
+                                      "img_path" : ["images/120x120_3_0.jpg",
+                                                    "images/120x120_3_1.png"]
+                                    },
+                      "anchor_4" : {
+                                      "class_name" : "ori_img",
+                                      "file_name" : "120x120_4_",
+                                      "href_path" : "#anchor_4",
+                                      "img_path" : ["images/120x120_4_0.jpg",
+                                                    "images/120x120_4_1.png"]
+                                    },
+                      "anchor_5" : {
+                                      "class_name" : "ori_img",
+                                      "file_name" : "120x120_5_",
+                                      "href_path" : "https://goo.gl/Hg5pRX",
+                                      "img_path" : ["images/120x120_5_0.jpg",
+                                                    "images/120x120_5_1.png"]
+                                    }
+                    }
+  var footer_html = "";
+  footer_html += '<ul>'
+  $.each(footer_obj,function(key,value){
+    footer_html += '<li class="activity_menu_icon">'
+    footer_html += '<div class="ta-c">'
+    footer_html += '<a href="' +value.href_path+ '">'
+    footer_html += '<img src="' +value.img_path[0]+ '" file_name="' +value.file_name+ '" class="ori_img">'
+    footer_html += '</a>'
+    footer_html += '</div>'
+    footer_html += '</li>'
+  });
+  footer_html += '</ul>'
+  $(".footer_menu_wrap").html(footer_html);
+  // footer menu_icon點擊換色 20171002增加圖片切換功能
+  $(".activity_menu_icon").click(function(){
+    // reset
+    $(".activity_menu_icon div").removeClass("active");
+    $(".ori_img").each(function(){ 
+      var file = $(this).attr("file_name");
+      $(this).attr("src",'images/'+file+"0.jpg");
+    });
+    //active
+    $(this).children(".activity_menu_icon div").addClass("active");
+    var file_name = $("img",this).attr("file_name");
+    $("img",this).attr("src","images/"+file_name+"1.png");
+    $('html,body').animate({scrollTop:$($("a",this).attr("href")).offset().top+-62+"px"},800);
+    return false;
+  });
 });
