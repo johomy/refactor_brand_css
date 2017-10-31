@@ -5,7 +5,7 @@ $(function(){
   var header_html = "";
   header_html += '<div class="header_mid">'
   header_html += '<a href="/">'
-  header_html += '<img src="/images/NEWART_header.png" class="header_logo_img">'
+  header_html += '<img src="images/NEWART_header.png" class="header_logo_img">'
   header_html += '</a>'
   header_html += '</div>'
   $(".header_wrap").html(header_html);
@@ -14,27 +14,27 @@ $(function(){
                     "slider_bn_1" : {
                                       "class_name" : "slider_bn",
                                       "href_path" : "https://goo.gl/q54o7q",
-                                      "img_path" : "/images/768x375-01.jpg"
+                                      "img_path" : "images/768x375-01.jpg"
                                     },
                     "slider_bn_2" : {
                                       "class_name" : "slider_bn",
                                       "href_path" : "https://goo.gl/2nBNA1",
-                                      "img_path" : "/images/768x375-02.jpg"
+                                      "img_path" : "images/768x375-02.jpg"
                                     },
                     "slider_bn_3" : {
                                       "class_name" : "slider_bn",
                                       "href_path" : "https://goo.gl/N5gCCF",
-                                      "img_path" : "/images/768x375-03.jpg"
+                                      "img_path" : "images/768x375-03.jpg"
                                     },
                     "slider_bn_4" : {
                                       "class_name" : "slider_bn",
                                       "href_path" : "#",
-                                      "img_path" : "/images/768x375-04.jpg"
+                                      "img_path" : "images/768x375-04.jpg"
                                     },
                     "slider_bn_5" : {
                                       "class_name" : "slider_bn",
                                       "href_path" : "https://goo.gl/NTQZwj",
-                                      "img_path" : "/images/768x375-05.jpg"
+                                      "img_path" : "images/768x375-05.jpg"
                                     }
                   }
   var slick_html = "";
@@ -56,56 +56,56 @@ $(function(){
   var discount_obj = {
                         "gift_box_1" : {
                                        "href_path" : "https://goo.gl/yuLtPr",
-                                       "img_path" : "/images/1.jpg"
+                                       "img_path" : "images/1.jpg"
                                       },
                         "gift_box_2" : {
                                        "href_path" : "https://goo.gl/TKfP2Z",
-                                       "img_path" : "/images/2.jpg"
+                                       "img_path" : "images/2.jpg"
                                       },
                         "gift_box_3" : {
                                        "href_path" : "https://goo.gl/WrwKcr",
-                                       "img_path" : "/images/3.jpg"
+                                       "img_path" : "images/3.jpg"
                                       },
                         "gift_box_4" : {
                                        "href_path" : "https://goo.gl/FFqPNL",
-                                       "img_path" : "/images/4.jpg"
+                                       "img_path" : "images/4.jpg"
                                       },
                         "gift_box_5" : {
                                        "href_path" : "https://goo.gl/S1qaQQ",
-                                       "img_path" : "/images/5.jpg"
+                                       "img_path" : "images/5.jpg"
                                       },
                         "gift_box_6" : {
                                        "href_path" : "https://goo.gl/mVgkrq",
-                                       "img_path" : "/images/6.jpg"
+                                       "img_path" : "images/6.jpg"
                                       },
                         "gift_box_7" : {
                                        "href_path" : "https://goo.gl/UrFDBN",
-                                       "img_path" : "/images/7.jpg"
+                                       "img_path" : "images/7.jpg"
                                       },
                         "gift_box_8" : {
                                        "href_path" : "https://goo.gl/AZf4N6",
-                                       "img_path" : "/images/8.jpg"
+                                       "img_path" : "images/8.jpg"
                                       },
                         "gift_box_9" : {
                                        "href_path" : "https://goo.gl/THmvzV",
-                                       "img_path" : "/images/9.jpg"
+                                       "img_path" : "images/9.jpg"
                                       },
                         "gift_box_10" : {
                                        "href_path" : "https://goo.gl/sFh1sv",
-                                       "img_path" : "/images/10.jpg"
+                                       "img_path" : "images/10.jpg"
                                       },
                         "gift_box_11" : {
                                        "href_path" : "https://goo.gl/XPRDhJ",
-                                       "img_path" : "/images/11.jpg"
+                                       "img_path" : "images/11.jpg"
                                       },
                         "gift_box_12" : {
                                        "href_path" : "",
-                                       "img_path" : "/images/all_12.jpg"
+                                       "img_path" : "images/all_12.jpg"
                                       }
                       }
   var gift_box_html = "";
   gift_box_html += '<a href="https://goo.gl/UuaufG" id="anchor_1">'
-  gift_box_html += '<img src="/images/750x140-02.jpg">'
+  gift_box_html += '<img src="images/750x140-02.jpg">'
   gift_box_html += '</a>'
   gift_box_html += '<ul>'
   $.each(discount_obj,function(key,value){
@@ -125,10 +125,10 @@ $(function(){
                     "table_1" : { 
                                   "table" : "1",
                                   "table_id" : "table_1",
-                                  "table_img_path" : [  "/images/120x120_table01_0.jpg",
-                                                        "/images/120x120_table01_1.png",
-                                                        "/images/not_yet_started_0.png",
-                                                        "/images/not_yet_started_1.png"],
+                                  "table_img_path" : [ "images/120x120_table01_0.jpg",
+                                                        "images/120x120_table01_1.png",
+                                                        "images/not_yet_started_0.png",
+                                                        "images/not_yet_started_1.png"],
                                   "prod_items" : {
                                                   "2017-11-01" : {
                                                                     "days_id" : "1",
@@ -136,9 +136,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/Svn2Z2",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_1.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_1.jpg"]
                                                                   },
                                                   "2017-11-02" : {
                                                                     "days_id" : "2",
@@ -146,9 +146,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/naLGpQ",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_2.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_2.jpg"]
                                                                   },
                                                   "2017-11-03" : {
                                                                     "days_id" : "3",
@@ -156,9 +156,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/k8XVPN",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_3.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_3.jpg"]
                                                                   },
                                                   "2017-11-04" : {
                                                                     "days_id" : "4",
@@ -166,9 +166,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/9bTddR",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_4.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_4.jpg"]
                                                                   },
                                                   "2017-11-05" : {
                                                                     "days_id" : "5",
@@ -176,9 +176,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/478CKo",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_5.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_5.jpg"]
                                                                   },
                                                   "2017-11-06" : {
                                                                     "days_id" : "6",
@@ -186,9 +186,9 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/8i2RGu",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_6.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_6.jpg"]
                                                                   },
                                                   "2017-11-07" : {
                                                                     "days_id" : "7",
@@ -196,19 +196,19 @@ $(function(){
                                                                     "table_id" : "table_1",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/QrdiXL",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_7.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_7.jpg"]
                                                                   }
                                                  }
                                 },
                     "table_2" : {
                                   "table" : "2",
                                   "table_id" : "table_2",
-                                  "table_img_path" : [ "/images/120x120_table02_0.jpg",
-                                                       "/images/120x120_table02_1.png",
-                                                       "/images/not_yet_started_0.png",
-                                                       "/images/not_yet_started_1.png"],
+                                  "table_img_path" : [ "images/120x120_table02_0.jpg",
+                                                       "images/120x120_table02_1.png",
+                                                       "images/not_yet_started_0.png",
+                                                       "images/not_yet_started_1.png"],
                                   "prod_items" : {
                                                   "2017-11-08" : {
                                                                     "days_id" : "8",
@@ -216,9 +216,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/MpnADw",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_8.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_8.jpg"]
                                                                   },
                                                   "2017-11-09" : {
                                                                     "days_id" : "9",
@@ -226,9 +226,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/axovUt",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_9.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_9.jpg"]
                                                                   },
                                                   "2017-11-10" : {
                                                                     "days_id" : "10",
@@ -236,9 +236,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/tSQ9jb",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_10.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_10.jpg"]
                                                                   },
                                                   "2017-11-11" : {
                                                                     "days_id" : "11",
@@ -246,9 +246,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/t71zdE",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_11.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_11.jpg"]
                                                                   },
                                                   "2017-11-12" : {
                                                                     "days_id" : "12",
@@ -256,9 +256,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/7Raaya",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_12.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_12.jpg"]
                                                                   },
                                                   "2017-11-13" : {
                                                                     "days_id" : "13",
@@ -266,9 +266,9 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/5DLg6N",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_13.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_13.jpg"]
                                                                   },
                                                   "2017-11-14" : {
                                                                     "days_id" : "14",
@@ -276,19 +276,19 @@ $(function(){
                                                                     "table_id" : "table_2",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/3xXdBU",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_14.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_14.jpg"]
                                                                   }
                                                  }
                                 },
                     "table_3" : {
                                   "table" : "3",
                                   "table_id" : "table_3",
-                                  "table_img_path" : [ "/images/120x120_table03_0.jpg",
-                                                       "/images/120x120_table03_1.png",
-                                                       "/images/not_yet_started_0.png",
-                                                       "/images/not_yet_started_1.png"],
+                                  "table_img_path" : [ "images/120x120_table03_0.jpg",
+                                                       "images/120x120_table03_1.png",
+                                                       "images/not_yet_started_0.png",
+                                                       "images/not_yet_started_1.png"],
                                   "prod_items" : {
                                                   "2017-11-15" : {
                                                                     "days_id" : "15",
@@ -296,9 +296,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/WFqV5b",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_15.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_15.jpg"]
                                                                   },
                                                   "2017-11-16" : {
                                                                     "days_id" : "16",
@@ -306,9 +306,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/71nvYR",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_16.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_16.jpg"]
                                                                   },
                                                   "2017-11-17" : {
                                                                     "days_id" : "17",
@@ -316,9 +316,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/tnzk4V",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_17.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_17.jpg"]
                                                                   },
                                                   "2017-11-18" : {
                                                                     "days_id" : "18",
@@ -326,9 +326,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/HwGeiD",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_18.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_18.jpg"]
                                                                   },
                                                   "2017-11-19" : {
                                                                     "days_id" : "19",
@@ -336,9 +336,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/hEUHN2",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_19.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_19.jpg"]
                                                                   },
                                                   "2017-11-20" : {
                                                                     "days_id" : "20",
@@ -346,9 +346,9 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/3Fn6Yk",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_20.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_20.jpg"]
                                                                   },
                                                   "2017-11-21" : {
                                                                     "days_id" : "21",
@@ -356,19 +356,19 @@ $(function(){
                                                                     "table_id" : "table_3",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/q1tNNL",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_21.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_21.jpg"]
                                                                   }
                                                  }
                                 },
                     "table_4" : {
                                   "table" : "4",
                                   "table_id" : "table_4",
-                                  "table_img_path" : [ "/images/120x120_table04_0.jpg",
-                                                       "/images/120x120_table04_1.png",
-                                                       "/images/not_yet_started_0.png",
-                                                       "/images/not_yet_started_1.png"],
+                                  "table_img_path" : [ "images/120x120_table04_0.jpg",
+                                                       "images/120x120_table04_1.png",
+                                                       "images/not_yet_started_0.png",
+                                                       "images/not_yet_started_1.png"],
                                   "prod_items" : {
                                                   "2017-11-22" : {
                                                                     "days_id" : "22",
@@ -376,9 +376,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/SJpVau",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_22.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_22.jpg"]
                                                                   },
                                                   "2017-11-23" : {
                                                                     "days_id" : "23",
@@ -386,9 +386,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/xE5beU",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_23.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_23.jpg"]
                                                                   },
                                                   "2017-11-24" : {
                                                                     "days_id" : "24",
@@ -396,9 +396,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/noupfG",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_24.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_24.jpg"]
                                                                   },
                                                   "2017-11-25" : {
                                                                     "days_id" : "25",
@@ -406,18 +406,18 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/MQHKCe",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_25.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_25.jpg"]
                                                                   },
                                                   "2017-11-26" : {
                                                                     "days_id" : "26",
                                                                     "table" : "4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/2t734E",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_26.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_26.jpg"]
                                                                   },
                                                   "2017-11-27" : {
                                                                     "days_id" : "27",
@@ -425,9 +425,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/bL2TT9",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_27.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_27.jpg"]
                                                                   },
                                                   "2017-11-28" : {
                                                                     "days_id" : "28",
@@ -435,9 +435,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/ABvrp7",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_28.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_28.jpg"]
                                                                   },
                                                   "2017-11-29" : {
                                                                     "days_id" : "29",
@@ -445,9 +445,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/LYCPWm",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_29.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_29.jpg"]
                                                                   },
                                                   "2017-11-30" : {
                                                                     "days_id" : "30",
@@ -455,9 +455,9 @@ $(function(){
                                                                     "table_id" : "table_4",
                                                                     "class_name" : "days_",
                                                                     "href_path" : "https://goo.gl/Ea8Hvv",
-                                                                    "img_path" : ["/images/not_yet_started_0.png",
-                                                                                  "/images/not_yet_started_1.png",
-                                                                                  "/images/750x300_30.jpg"]
+                                                                    "img_path" : ["images/not_yet_started_0.png",
+                                                                                  "images/not_yet_started_1.png",
+                                                                                  "images/750x300_30.jpg"]
                                                                   }
                                                  }
                                 }
@@ -505,13 +505,13 @@ $(function(){
     });
     $(".table_img").each(function(){ 
       var file = $(this).attr("file_name");
-      $(this).attr("src",'/images/'+file+"0.jpg");
+      $(this).attr("src",'images/'+file+"0.jpg");
     });
     // active
     $($(this).attr("href")).show();
     $(this).css("background","#c30d22");
     var file_name = $("img",this).attr("file_name");
-    $("img",this).attr("src","/images/"+file_name+"1.png");
+    $("img",this).attr("src","images/"+file_name+"1.png");
     $('html,body').animate({scrollTop:$($(this).attr("href")).offset().top+-122+"px"},800);
     return false;
   });
@@ -519,7 +519,7 @@ $(function(){
   $(".tab_contents ul").hide();
   $("#table_1").show();
   $(".table_1 a").css("background","#c30d22");
-  $(".table_1 a img").attr("src","/images/120x120_table01_1.png");
+  $(".table_1 a img").attr("src","images/120x120_table01_1.png");
   // 以系統日期抓資料做換圖及關閉遮罩
   $.each(table_obj,function(key,value){
     if (!$.isEmptyObject(value["prod_items"][date])) {
@@ -539,7 +539,7 @@ $(function(){
           });
           $(".table_img").each(function(){ 
             var file = $(this).attr("file_name");
-            $(this).attr("src",'/images/'+file+"0.jpg");
+            $(this).attr("src",'images/'+file+"0.jpg");
           });
           // active
           $(".tab_contents").children("#" + value["prod_items"][date]["table_id"]).show();
@@ -553,16 +553,16 @@ $(function(){
 
 $(function(){
   // 怎麼買最划算
-  var FB_content_html = "";
-  FB_content_html += '<a href="#" id="anchor_3">'
-  FB_content_html += '<img src="images/750x140-05.jpg" >'
-  FB_content_html += '</a>'
-  FB_content_html += '<ul class="m-t-20">'
-  FB_content_html += '<li class="ta-c">'
-  FB_content_html += '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnewarthaircare%2Fvideos%2F1981316782091391%2F&show_text=1&width=320" width="320" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>'
-  FB_content_html += '</li>'
-  FB_content_html += '</ul>'
-  $(".article_3").html(FB_content_html);
+  // var FB_content_html = "";
+  // FB_content_html += '<a href="#" id="anchor_3">'
+  // FB_content_html += '<img src="images/750x140-05.jpg" >'
+  // FB_content_html += '</a>'
+  // FB_content_html += '<ul class="m-t-20">'
+  // FB_content_html += '<li class="ta-c">'
+  // FB_content_html += '<div class="fb-video" data-href="https://www.facebook.com/newartshop/videos/1423797464340389/" data-width="310" data-show-text="true"><blockquote cite="https://www.facebook.com/newartshop/videos/1423797464340389/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/newartshop/videos/1423797464340389/"></a><p>NEWART 聽見你頭髮的聲音 [產品製造*安心保證] 製造工廠☛&quot;昇宏集團&quot;化妝品GMP廠 / CNS 22716 (國家標準驗證品質管理) 給予消費者最高規格的研發生產過程。NEWART全系列商品皆由&quot;昇宏集團&quot;提供專業研發、安全製造&quot;並配置NEWART專屬藥師及研發人員 in-house ，都是為了讓消費者使用的更有感，更安心 !</p>由 <a href="https://www.facebook.com/newartshop/">Newart 聽見你頭髮的聲音</a>貼上了 2017年10月24日</blockquote></div>'
+  // FB_content_html += '</li>'
+  // FB_content_html += '</ul>'
+  // $(".article_3").html(FB_content_html);
   // 加入會員再賺紅利
   var article_4_html = "";
   article_4_html += '<a href="https://goo.gl/2jZ8D3" id="anchor_4">'
