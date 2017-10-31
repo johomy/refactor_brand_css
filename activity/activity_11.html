@@ -155,12 +155,29 @@
         </article>
         <!-- 怎麼買最划算 -->
         <article class="article_3">
-          <a href="#" id="anchor_3">
+          <a href="https://goo.gl/jXgcvk" id="anchor_3">
             <img src="images/750x140-05.jpg" >
           </a>
           <ul>
             <li class="ta-c">
-              <div class="fb-post" data-href="https://www.facebook.com/newartshop/posts/1425542674165868" data-width="500"></div>
+              <div id="fb-root"></div>
+              <!-- <script type="text/javascript" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.10"></script> -->
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml      : true,
+                    version    : 'v2.10'
+                  });
+                }; 
+                (function(d, s, id){
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) {return;}
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+              </script>
+              <div class="fb-post" data-href="https://www.facebook.com/newartshop/posts/1429818590404943" data-width="500"></div>
             </li>
           </ul>
         </article>
@@ -223,13 +240,6 @@
       </ul>
     </footer> -->
   </section><!-- main_wrap Border -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    
 </body>
 </html>

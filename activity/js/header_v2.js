@@ -28,7 +28,7 @@ $(function(){
                                     },
                     "slider_bn_4" : {
                                       "class_name" : "slider_bn",
-                                      "href_path" : "#",
+                                      "href_path" : "https://goo.gl/jXgcvk",
                                       "img_path" : "images/768x375-04.jpg"
                                     },
                     "slider_bn_5" : {
@@ -99,7 +99,7 @@ $(function(){
                                        "img_path" : "images/11.jpg"
                                       },
                         "gift_box_12" : {
-                                       "href_path" : "",
+                                       "href_path" : "https://goo.gl/uYdYyu",
                                        "img_path" : "images/all_12.jpg"
                                       }
                       }
@@ -553,15 +553,15 @@ $(function(){
 
 $(function(){
   // 怎麼買最划算
-  // var FB_content_html = "";
-  // FB_content_html += '<a href="#" id="anchor_3">'
-  // FB_content_html += '<img src="images/750x140-05.jpg" >'
-  // FB_content_html += '</a>'
-  // FB_content_html += '<ul class="m-t-20">'
-  // FB_content_html += '<li class="ta-c">'
-  // FB_content_html += '<div class="fb-video" data-href="https://www.facebook.com/newartshop/videos/1423797464340389/" data-width="310" data-show-text="true"><blockquote cite="https://www.facebook.com/newartshop/videos/1423797464340389/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/newartshop/videos/1423797464340389/"></a><p>NEWART 聽見你頭髮的聲音 [產品製造*安心保證] 製造工廠☛&quot;昇宏集團&quot;化妝品GMP廠 / CNS 22716 (國家標準驗證品質管理) 給予消費者最高規格的研發生產過程。NEWART全系列商品皆由&quot;昇宏集團&quot;提供專業研發、安全製造&quot;並配置NEWART專屬藥師及研發人員 in-house ，都是為了讓消費者使用的更有感，更安心 !</p>由 <a href="https://www.facebook.com/newartshop/">Newart 聽見你頭髮的聲音</a>貼上了 2017年10月24日</blockquote></div>'
-  // FB_content_html += '</li>'
-  // FB_content_html += '</ul>'
+  var FB_content_html = "";
+  FB_content_html += '<a href="#" id="anchor_3">'
+  FB_content_html += '<img src="images/750x140-05.jpg" >'
+  FB_content_html += '</a>'
+  FB_content_html += '<ul class="m-t-20">'
+  FB_content_html += '<li class="ta-c">'
+  FB_content_html += '<div class="fb-video" data-href="https://www.facebook.com/newartshop/videos/1423797464340389/" data-width="310" data-show-text="true"><blockquote cite="https://www.facebook.com/newartshop/videos/1423797464340389/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/newartshop/videos/1423797464340389/"></a><p>NEWART 聽見你頭髮的聲音 [產品製造*安心保證] 製造工廠☛&quot;昇宏集團&quot;化妝品GMP廠 / CNS 22716 (國家標準驗證品質管理) 給予消費者最高規格的研發生產過程。NEWART全系列商品皆由&quot;昇宏集團&quot;提供專業研發、安全製造&quot;並配置NEWART專屬藥師及研發人員 in-house ，都是為了讓消費者使用的更有感，更安心 !</p>由 <a href="https://www.facebook.com/newartshop/">Newart 聽見你頭髮的聲音</a>貼上了 2017年10月24日</blockquote></div>'
+  FB_content_html += '</li>'
+  FB_content_html += '</ul>'
   // $(".article_3").html(FB_content_html);
   // 加入會員再賺紅利
   var article_4_html = "";
@@ -575,7 +575,7 @@ $(function(){
   article_4_html += '</a>'
   article_4_html += '</li>'
   article_4_html += '<li class="m-t-10 m-b-10 ta-c">'
-  article_4_html += '<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.newart.com.tw%2Factivity_11&layout=button_count&size=large&mobile_iframe=true&width=77&height=28&appId" width="77" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>'
+  article_4_html += '<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.newart.com.tw%2Factivity_11&layout=button&size=large&mobile_iframe=true&width=65&height=28&appId" width="65" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>'
   article_4_html += '</li>'
   article_4_html += '<li>'
   article_4_html += '<img src="images/Description.jpg">'
