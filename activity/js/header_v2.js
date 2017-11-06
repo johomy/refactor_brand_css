@@ -55,7 +55,7 @@ $(function(){
 $(function(){
   var discount_obj = {
                         "gift_box_1" : {
-                                       "href_path" : "https://goo.gl/yuLtPr",
+                                       "href_path" : "https://goo.gl/FFqPNL",
                                        "img_path" : "images/1.jpg"
                                       },
                         "gift_box_2" : {
@@ -63,39 +63,39 @@ $(function(){
                                        "img_path" : "images/2.jpg"
                                       },
                         "gift_box_3" : {
-                                       "href_path" : "https://goo.gl/WrwKcr",
+                                       "href_path" : "https://goo.gl/XPRDhJ",
                                        "img_path" : "images/3.jpg"
                                       },
                         "gift_box_4" : {
-                                       "href_path" : "https://goo.gl/FFqPNL",
+                                       "href_path" : "https://goo.gl/S1qaQQ",
                                        "img_path" : "images/4.jpg"
                                       },
                         "gift_box_5" : {
-                                       "href_path" : "https://goo.gl/S1qaQQ",
-                                       "img_path" : "images/5.jpg"
+                                       "href_path" : "https://goo.gl/R8hLX9",
+                                       "img_path" : "images/5.png"
                                       },
                         "gift_box_6" : {
-                                       "href_path" : "https://goo.gl/mVgkrq",
-                                       "img_path" : "images/6.jpg"
+                                       "href_path" : "https://goo.gl/5tnQUa",
+                                       "img_path" : "images/6.png"
                                       },
                         "gift_box_7" : {
-                                       "href_path" : "https://goo.gl/UrFDBN",
+                                       "href_path" : "https://goo.gl/mVgkrq",
                                        "img_path" : "images/7.jpg"
                                       },
                         "gift_box_8" : {
-                                       "href_path" : "https://goo.gl/AZf4N6",
+                                       "href_path" : "https://goo.gl/UrFDBN",
                                        "img_path" : "images/8.jpg"
                                       },
                         "gift_box_9" : {
-                                       "href_path" : "https://goo.gl/THmvzV",
+                                       "href_path" : "https://goo.gl/yuLtPr",
                                        "img_path" : "images/9.jpg"
                                       },
                         "gift_box_10" : {
-                                       "href_path" : "https://goo.gl/sFh1sv",
+                                       "href_path" : "https://goo.gl/AZf4N6",
                                        "img_path" : "images/10.jpg"
                                       },
                         "gift_box_11" : {
-                                       "href_path" : "https://goo.gl/XPRDhJ",
+                                       "href_path" : "https://goo.gl/sFh1sv",
                                        "img_path" : "images/11.jpg"
                                       },
                         "gift_box_12" : {
@@ -589,7 +589,7 @@ $(function(){
   article_4_html += '<li class="col-xs-12 col-sm-6 m-t-5 m-b-5 p-r-5 p-l-5">'
   article_4_html += '<div class="line_button inner_box btn box_shadow_white">'
   article_4_html += '<img src="images/line_logo.png">'
-  article_4_html += '<a href="https://line.me/R/ti/p/%40ngq1692">加入LINE@得知最新消息</a>'
+  article_4_html += '<a href="https://line.me/R/ti/p/%40ngq1692g">加入LINE@得知最新消息</a>'
   article_4_html += '</div>'
   article_4_html += '</li>'
   article_4_html += '<li class="clear"></li>'
