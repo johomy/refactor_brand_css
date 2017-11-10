@@ -13,6 +13,11 @@ body {
 	font-weight:bold;
 	line-height:60px;
 }
+.header_logo_black{
+	font-size:22px;
+	font-weight:bold;
+	line-height:60px;
+}
 /*-----搜尋 icon-----*/
 .search_bar {
 	border:1px solid;

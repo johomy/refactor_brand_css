@@ -54,6 +54,9 @@ hr{
 .header_logo{
 	color: #fff;
 }
+.header_logo_black{
+	color: #000;
+}
 /*-----搜尋 icon-----*/
 .search_bar {
 	border-color: #666;
