@@ -245,7 +245,7 @@
           <div class="clear"></div>
           <hr>
           <!-- 消費計算 -->
-          <ul class="calculation_wrap">
+          <ul class="calculation_wrap InputStyle">
             <li>
               <h1 class="float-l">商品總計金額</h1>
               <div class="ta-r">
@@ -280,6 +280,30 @@
               <h1 class="float-l">消費總金額</h1>
               <div class="ta-r">
                 <span class="horizontal_price_style" id="totals">$ 8,888</span>
+              </div>
+              <hr class="m-t-10"><!-- 20171129新增 -->
+            </li>
+            <!-- 20171129新增折價券欄位 -->
+            <li>
+              <h1 class="float-l m-t-15">折價券</h1>
+              <div class="float-l inner_box50 m-l-15 m-r-15">
+                <input type="text" name="coupons">
+                <p class="font_color_Red blank20" name="error_coupons" id="error_coupons"></p>
+              </div>
+              <button class="btn basic_button_color_one box_shadow_white border_radius_5 m-t-5 p-t-10 p-b-10 p-l-15 p-r-15">檢查</button>
+              <div class="clear"></div>
+            </li>
+            <li>
+              <h1 class="float-l font_color_Red">折價券折扣金額</h1>
+              <div class="ta-r">
+                <span id="discount_money" class="font_color_Red">-$ 0</span>
+              </div>
+              <h1 class="clear"></h1>
+            </li>
+            <li>
+              <h1 class="float-l">折扣後消費總金額</h1>
+              <div class="ta-r">
+                <span class="horizontal_price_style">$ 8,888</span>
               </div>
             </li>
           </ul>

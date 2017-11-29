@@ -473,3 +473,16 @@ select{
 	/*font-weight: bold;*/
 	padding-bottom: 5px;
 }
+/*20171129針對官網input樣式新增*/
+.InputStyle input{
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+	transition: 0.35s ease-in-out;
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}

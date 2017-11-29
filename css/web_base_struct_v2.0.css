@@ -709,6 +709,7 @@ select{
 	width: 100%;
 	margin: 5px 0;
 }
+
 .checkbox_input_wrap input,
 .edm_enabled_wrap input,
 .remember_account_wrap input{
@@ -729,4 +730,9 @@ select{
 	0%{ top: 10px; }
 	50%{ top: 5px; }
 	100%{ top: 10px; }
+}
+/*20171129針對官網input樣式新增*/
+.InputStyle input{
+	width: 100%;
+	margin: 5px 0;
 }

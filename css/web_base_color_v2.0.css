@@ -335,3 +335,12 @@ input:checked{
 .purchase_wrap .btn{
 	color: #fff;
 }
+/*20171129針對官網input樣式新增*/
+.InputStyle input{
+	background-color: #f9f9f9;
+	border-color: #b3b3b3;
+	color: #666;
+}
+.btn:hover, .btn:focus, .btn.focus{
+	color: #fff;
+}
