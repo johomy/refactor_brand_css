@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+body{
+	/*background:#E6E6E6;*/
+}
+
+/*-----官網整體色系-----*/
+hr{
+	border-color: #ddd;
+}
+.basic_color{
+	background: #F29C9F;
+	color: #fff;
+}
+/*20171002修改 原background:#9bd5e0; 新增color: #000;*/
+.basic_title_color{
+	background: #F29C9F;
+	color: #fff;
+}
+/*20171002新增 background: #000; color: #fff;*/
+.basic_font_color{
+	color: #666;
+}
+/*20171003修改 原color:#9bd5e0;*/
+.basic_border_color{
+	border-color: #A3CF8A;
+}
+/*20171006修改 原color:#9bd5e0;*/
+.active{
+	background-color: #F29C9F;
+}
+/*20171003修改 原background:#9bd5e0;*/
+.basic_button_color_one{
+	background-color: #A3CF8A;
+	color: #fff;
+}
+.basic_button_color_two{
+	background-color: #F29C9F;
+	color: #fff;
+}
+.basic_button_color_three{
+	background-color: #b3b3b3;
+	color: #fff;
+}
+/*-----hamburger icon-----*/
+.header_wrap{
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5)
+}
+.icon_bar{
+	background: #fff;
+}
+/*20171002修改 原background:#fff;*/
+/*-----header 網站名稱-----*/
+.header_logo{
+	color: #fff;
+}
+.header_logo_black{
+	color: #000;
+}
+/*-----搜尋 icon-----*/
+.search_bar {
+	border-color: #666;
+	background: #fff;
+}
+.search_bar input {
+	background:#fff;
+}
+.search_btn {
+	background:#666;
+	color:#fff;
+}
+/*-----hamburger content-----*/
+.hamburger_list_wrap > ul > li {
+	border-color: #898989;
+	background-color: #f4f4f4;
+}
+.hamburger_list_wrap > ul > ul > li {
+	border-color: #ddd;
+}
+#hamburger_menu .hamburger_show a {
+	color: #666;
+}
+/*20171003修改 原color:#fff;*/
+.copyright {
+	color: #666;
+}
+/*-----footer_menu_wrap-----*/
+.footer_menu_wrap{
+	background: #fff;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5)
+}
+/*20171003修改 background:#B3B3B3; 增加box-shadow: 0px 0px 8px rgba(0,0,0,.5)*/
+.menu_icon a{
+	color: #000;
+}
+/*20171002修改 color:#fff;*/
+/*-----會員專區 member header-----*/
+.member_header_wrap{
+	background:#fff;
+	color:#000;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.2)
+}
+.member_title_wrap{
+	background: #b3b3b3;
+	color: #fff;
+}
+/*20171002修改 background:#666; color:#fff;*/
+.logout_btn{
+	background:#333;
+}
+.logout_btn a{
+	color:#fff;
+}
+/*---會員專區 member function (for member.html)---*/
+.member_button{
+	border-color: #b3b3b3;
+	background: #fff;
+}
+.member_button a{
+	color: #666;
+}
+.bonus_font_Red a{
+	color: red;
+}
+.square_button a{
+	color: #fff;
+}
+/*member頁籤*/
+.member_controls li{
+	box-shadow: 1px 1px 10px #999;
+}
+/*---會員基本資料 (for member_profile.html)---*/
+/*member form*/
+.account_button a{
+	color: #fff;
+}
+.edm_enabled_wrap label{
+	color: #666;
+}
+/*member button*/
+.FB_button{
+	background: #3b5998;
+}
+.FB_button a{
+	color: #fff;
+}
+.confirm_button a{
+	color: #fff;
+}
+/*---會員修改密碼 (for member_pwd.html)---*/
+.new_password_wrap ol li{
+	color: #666;
+}
+/*---會員訂單紀錄 (for member_order.html)---*/
+/*尚無訂單資料*/
+.no_order_wrap p{
+	color: #2caa72;
+}
+/*訂單資料*/
+.order_content_wrap{
+	border-color: #b3b3b3;
+}
+.order_top_wrap{
+	border-color: #ddd;
+}
+/*訂單狀態*/
+.order_status_style{
+	border-color: #f78c00;
+}
+/*---會員註冊 (for member_register.html)---*/
+.accept_wrap label{
+	color: #666;
+}
+/*-----紅利館 整體色系-----*/
+.bonus_basic_color{
+	background: #c75957;
+	color: #fff;
+}
+.bonus_basic_font_color{
+	color: #c75957;
+}
+.bonus_basic_border_color{
+	border-color: #c75957;
+}
+/*-----紅利館 bonus header-----*/
+.bonus_header_color{
+	background: #a94442;
+}
+.dividend_wrap span{
+	color: #fff;
+}
+.bonus_header_logo a{
+	color: #fff;
+}
+/*-----橫向商品列表-----*/
+.horizontal_price_style{
+	color: #c30d23;
+}
+.Quantity_wrap_input{
+	border-color: #ccc;
+}
+.button_style{
+	background: #c75957;
+	color: #fff;
+}
+/*-----雙品商品列表-----*/
+.even_price_style{
+	color: #c30d23;
+}
+.Original_price{
+	color: #666;
+}
+/*-----單品商品列表-----*/
+.odd_price_style{
+	color: #c30d23;
+}
+
+/*---商品介紹頁面(for prod.html)---*/
+/*商品介紹頁*/
+.product_introduction_wrap{
+	background-color: #fff;
+}
+.line_button{
+	background: #5bac34;
+}
+.line_button a{
+	color: #fff;
+}
+/*商品頁籤*/
+.controls li{
+	background-color: #b3b3b3;
+	border-color: #fff;
+}
+.controls li a{
+	color: #fff;
+}
+/*google_map*/
+.google_map_wrap{
+	border-color: #ddd;
+}
+/*商品介紹頁 footer*/
+.Border_r{
+	border-color: #b3b3b3;
+}
+.menu_icon_buy a{
+	color: #fff;
+}
+
+/*---加入購物車頁面(for shopping_cart.html)---*/
+.shopping_button_left a{
+	color: #f78c00;
+}
+.shopping_button_right a{
+	color: #fff;
+}
+
+/*---footer 關於我們 (for brand.html,shipping.html,return.html,contact.html)---*/
+/*品牌介紹(brand.html)*/
+.brand_introduction_wrap li{
+	color: #666;
+}
+/*運送方式(shipping.html)*/
+.transport_wrap li{
+	color: #666;
+}
+/*退貨說明(return.html)*/
+.Anti-cheat_wrap ul{
+	border-color: #F78C00;
+}
+.Anti-cheat_NO{
+	background: #F78C00;
+	color: #fff;
+}
+/*聯絡我們(contact.html)*/
+.customer_service_content{
+	border-color: #666;
+}
+
+/*---購買資訊頁面(for checkout.html)---*/
+.the_next_step a{
+	color: #fff;
+}
+
+/*---頁面 input 設定---*/
+.payment_method_wrap input + label,
+.buyer_wrap input,
+.receive_wrap input,
+.Items_flow_wrap input,
+.invoice_wrap input,
+.name_wrap input,
+.gender_wrap input + label,
+.email_wrap input,
+.address_wrap input,
+.authentication_Code_wrap input,
+.password_form_wrap input,
+.merber_register_form_wrap input,
+select option,
+select{
+	background-color: #f9f9f9;
+	border-color: #b3b3b3;
+	color: #666;
+}
+input:focus {
+	border-color: #F29C9F;
+	box-shadow: 0 0 5px #F29C9F;
+}
+select:focus{
+	border-color: #F29C9F;
+	box-shadow: 0 0 5px #F29C9F;
+}
+.gender_wrap input:checked + label,
+.payment_method_wrap input:checked + label,
+input:checked{
+	background-color: #F29C9F;
+	border-color: #fff;
+	box-shadow: 0 0 5px #F29C9F;
+	color: #fff;
+}
+
+/*---購買資訊頁面(for checkout.html)---*/
+/*步驟圖*/
+.step_arrow_one{
+	border-color: transparent transparent transparent #A3CF8A; 
+}
+.step_arrow_two{
+	border-color: transparent transparent transparent #b3b3b3; 
+}
+/*全家門市資訊*/
+.family_button{
+	background: #449d44;
+}
+.family_button a{
+	color: #fff;
+}
+/*---加購功能Button---*/
+.purchase_wrap .btn{
+	color: #fff;
+}
+/*20171129針對官網input樣式新增*/
+.InputStyle input{
+	background-color: #f9f9f9;
+	border-color: #b3b3b3;
+	color: #666;
+}
+input:focus {
+	border-color: #F29C9F;
+	box-shadow: 0 0 5px #F29C9F;
+}
+select:focus{
+	border-color: #F29C9F;
+	box-shadow: 0 0 5px #F29C9F;
+}
+.btn:hover, .btn:focus, .btn.focus{
+	color: #fff;
+}
