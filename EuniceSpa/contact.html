@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>奇蹟護髮-header,footer</title>
+<title>EuniceSpa-聯絡我們</title>
 <link rel="stylesheet" type="text/css" href="css/eric_meyer_reset.min.css" />
 <link rel="stylesheet" type="text/css" href="css/Normalize_v1.0.min.css" />
 <!-- <link rel="stylesheet" type="text/css" href="css/jquery_ui.css" /> -->
@@ -21,7 +21,7 @@
 <script type="text/javascript" src="js/header_v1.js"></script>
 
 </head>
-<body>
+<body class="background_white">
   <section class="main_wrap Border">
     <!-- gotop icon 共用 -->
     <div class="gotop_icon Border">
@@ -38,17 +38,32 @@
         <span class="icon_bar"></span>
       </div>
       <!-- header 網站名稱(文字)max words 8 (繁體中文) 12(英文) -->
-      <div class="header_mid">
+      <!-- <div class="header_mid">
         <a href="#">
-          <h1 class="header_logo">奇蹟護髮</h1>
+          <h1 class="header_logo">EuniceSpa</h1>
         </a>
-      </div>
+      </div> -->
       <!-- header 網站名稱(圖片) -->
       <!-- <div class="header_mid">
         <a href="#">
-          <img src="images/NEWART_header.png" class="header_logo_img">
+          <img src="images/SPA_header.png" class="header_logo_img">
         </a>
       </div> -->
+      <!-- header 網站名稱(圖片+文字四種型態) -->
+      <div class="header_mid_wrap">
+        <div class="header_logo_left">
+          <a href="#">
+            <img src="images/SPA_header_left.png">
+            <!-- <h1 class="header_logo">Eunice</h1> -->
+          </a>
+        </div>
+        <div class="header_logo_right">
+          <a href="#">
+            <img src="images/SPA_header_right.png">
+            <!-- <h1 class="header_logo">Spa</h1> -->
+          </a>
+        </div>
+      </div>
       <!-- 首頁 icon -->
       <div class="home_icon Border">
         <a href="#">
@@ -130,8 +145,33 @@
       </article>
       <!-- main content -->
       <article class="content_right">
-       
-      
+        <!--大標-->
+        <div class="inner_box Border">
+          <div class="member_title_wrap p-l-5">
+            <!-- <div class="arrow_left_wrap m-t-5">
+              <a href="#">
+                <img src="images/arrow_left_white.png" class="arrow_left_photo">
+              </a>
+            </div> -->
+            <span>聯絡我們</span>
+          </div><!-- max words 15(繁體中文) -->
+        </div>
+        <article class="max_width_600 mg-c m-t-20 m-b-20 p-l-10 p-r-10">
+          <div class="customer_service_wrap m-t-20">
+            <div class="ta-c">
+              <h1 class="font_color_Orange font_size_18 blank30">用心服務專線</h1>
+              <img src="images/service.png" class="service_img">
+            </div>
+            <h4 class="font_color_Black font_size_16 font_color_Darkgray m-t-20 m-b-5">秒創超網</h4>
+            <div class="customer_service_content font_color_Darkgray border_radius_5">
+              <p class="p-b-5">市話請撥打：080-080-1699</p>
+              <p class="p-b-5">手機請撥打：(02)8228-0580</p>
+              <p class="p-b-5">商品使用教學請撥打：(07)224-0011#113</p>
+              <p class="p-b-5">客戶服務時間：週一至週五(國定假日除外)<br>AM/09:30-PM/12:30 & PM/13:30-PM/18:00</p>
+              <h4 class="font_color_Red m-t-5 m-b-10">▲來電顯示可經變造，請勿理會+號開頭及非平日上班時間客服電話。</h4>
+            </div>
+          </div>
+        </article>
         <article>
           <div class="copyright">
             <p>秒創超網訂購專線</p>
@@ -140,6 +180,18 @@
         </article>
       </article>
     </section>
+
+    <!-- footer無切換圖片 -->
+    <!-- <footer class="footer_menu_wrap Border">
+      <ul>
+        <li class="menu_icon member"><a href="#">會員專區</a></li>
+        <li class="menu_icon order"><a href="#">訂單查詢</a></li>
+        <li class="menu_icon buy"><a href="#">結帳</a></li>
+        <li class="menu_icon fbmsg"><a href="#">線上客服</a></li>
+        <li class="menu_icon contact"><a href="#">關於我們</a></li>
+      </ul>
+    </footer> -->
+    <!-- footer切換圖片 -->
     <!-- footer無切換圖片 -->
     <!-- <footer class="footer_menu_wrap Border">
       <ul>
@@ -155,31 +207,31 @@
       <ul>
         <li class="menu_icon member">
           <div class="ta-c">
-            <img src="images/menu_icon_member_0.png" file_name="menu_icon_member_" class="ori_img">
+            <a href="#"><img src="images/menu_icon_member_0.png" file_name="menu_icon_member_" class="ori_img"></a>
             <a href="#">會員專區</a>
           </div>
         </li>
         <li class="menu_icon order">
           <div class="ta-c">
-            <img src="images/menu_icon_order_0.png" file_name="menu_icon_order_" class="ori_img">
+            <a href="#"><img src="images/menu_icon_order_0.png" file_name="menu_icon_order_" class="ori_img"></a>
             <a href="#">訂單查詢</a>
           </div>
         </li>
         <li class="menu_icon buy">
           <div class="ta-c">
-            <img src="images/menu_icon_buy_0.png" file_name="menu_icon_buy_" class="ori_img">
+            <a href="#"><img src="images/menu_icon_buy_0.png" file_name="menu_icon_buy_" class="ori_img"></a>
             <a href="#">結帳</a>
           </div>
         </li>
         <li class="menu_icon fbmsg">
           <div class="ta-c">
-            <img src="images/menu_icon_fbmsg_0.png" file_name="menu_icon_fbmsg_" class="ori_img">
+            <a href="#"><img src="images/menu_icon_fbmsg_0.png" file_name="menu_icon_fbmsg_" class="ori_img"></a>
             <a href="#">線上客服</a>
           </div>
         </li>
         <li class="menu_icon contact">
           <div class="ta-c">
-            <img src="images/menu_icon_contact_0.png" file_name="menu_icon_contact_" class="ori_img">
+            <a href="#"><img src="images/menu_icon_contact_0.png" file_name="menu_icon_contact_" class="ori_img"></a>
             <a href="#">關於我們</a>
           </div>
         </li>

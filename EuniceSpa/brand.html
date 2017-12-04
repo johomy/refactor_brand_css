@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>NEWART-修改密碼</title>
+<title>EuniceSpa-品牌介紹</title>
 <link rel="stylesheet" type="text/css" href="css/eric_meyer_reset.min.css" />
 <link rel="stylesheet" type="text/css" href="css/Normalize_v1.0.min.css" />
 <!-- <link rel="stylesheet" type="text/css" href="css/jquery_ui.css" /> -->
@@ -19,10 +19,9 @@
 <link rel="stylesheet" type="text/css" href="css/web_base_color_v2.0.css" />
 <link rel="stylesheet" type="text/css" href="css/reset_and_fast.css"><!-- bootstrap清除+fast便利包 -->
 <script type="text/javascript" src="js/header_v1.js"></script>
-<script type="text/javascript" src="js/member_pwd_v1.0.js"></script>
 
 </head>
-<body>
+<body class="background_white">
   <section class="main_wrap Border">
     <!-- gotop icon 共用 -->
     <div class="gotop_icon Border">
@@ -39,17 +38,32 @@
         <span class="icon_bar"></span>
       </div>
       <!-- header 網站名稱(文字)max words 8 (繁體中文) 12(英文) -->
-      <div class="header_mid">
+      <!-- <div class="header_mid">
         <a href="#">
-          <h1 class="header_logo">奇蹟護髮</h1>
+          <h1 class="header_logo">EuniceSpa</h1>
         </a>
-      </div>
+      </div> -->
       <!-- header 網站名稱(圖片) -->
       <!-- <div class="header_mid">
         <a href="#">
-          <img src="images/NEWART_header.png" class="header_logo_img">
+          <img src="images/SPA_header.png" class="header_logo_img">
         </a>
       </div> -->
+      <!-- header 網站名稱(圖片+文字四種型態) -->
+      <div class="header_mid_wrap">
+        <div class="header_logo_left">
+          <a href="#">
+            <img src="images/SPA_header_left.png">
+            <!-- <h1 class="header_logo">Eunice</h1> -->
+          </a>
+        </div>
+        <div class="header_logo_right">
+          <a href="#">
+            <img src="images/SPA_header_right.png">
+            <!-- <h1 class="header_logo">Spa</h1> -->
+          </a>
+        </div>
+      </div>
       <!-- 首頁 icon -->
       <div class="home_icon Border">
         <a href="#">
@@ -139,42 +153,19 @@
                 <img src="images/arrow_left_white.png" class="arrow_left_photo">
               </a>
             </div> -->
-            <span>修改密碼</span>
+            <span>品牌介紹</span>
           </div><!-- max words 15(繁體中文) -->
         </div>
-        <form class="password_form_wrap" id="pwd_form">
-          <ul>
-            <li class="old_password_wrap m-t-10 m-b-10">
-              <h4>舊密碼</h4>
-              <input type="password" name="opassword" id="opwd" placeholder="請輸入舊密碼">
-              <p class="font_color_Red blank20" name="opwd_error" id="opwd_error"></p>
-            </li>
-            <li class="new_password_wrap">
-              <h4>新密碼</h4>
-              <input type="password" name="password" id="pwd" placeholder="請輸入新密碼">
-              <p class="font_color_Red blank20" name="pwd_error" id="pwd_error"></p>
-              <ol>
-                <li>密碼必須為六位數</li>
-                <li>英文字與數字混合</li>
-                <li class="p-b-20">英文需區分大小寫</li>
-              </ol>
-            </li>
-            <li class="confirm_password_wrap">
-              <h4>確認新密碼</h4>
-              <input type="hidden" name="csrf_newart" value="">
-              <input type="password" name="cpassword" id="cpwd" placeholder="確認新密碼">
-              <p class="font_color_Red blank20" name="cpwd_error" id="cpwd_error"></p>
-            </li>
-            <li>
-              <input type="hidden" name="csrf_newart" value="">
-              <div class="confirm_button mg-c m-b-10 btn box_shadow_white basic_button_color_one" id="member_pwd">
-                <a href="#">
-                  確認修改
-                </a>
-              </div>
-            </li>
-          </ul>
-        </form>
+        <article class="brand_introduction_wrap max_width_600 mg-c m-t-30 m-b-30 p-l-10 p-r-10">
+          <h1 class="font_size_16 font_color_Black ta-c">Spa 應該是一個幸福的單字，這也是我創辦 eunice spa 最單純的想法。</h1>
+          <p class="font_size_16 m-t-20 m-b-20">浸淫在spa 產業14年的時間，走過世界各地，挖掘出各國特色課程。把全世界的幸福帶給每個人。2011 年引進來自美國的特色冷凍減重課程，2013年引進西班牙皮拉減重課程，eunice更是在2016年將英國皇室專用的中胚層減重帶入台灣。Eunice 走遍世界各地，單單一個減重課程我們就拜訪了三個國家。只希望將最單純的幸福獻給總是追求最美好的妳。</p>
+          <h1 class="font_size_16 font_color_Black ta-c">勝利之花</h1>
+          <p class="font_size_16 m-t-20 m-b-20">走進eunice 您一定會發現減重課程是我們最大的特色之一，eunice 是希臘的勝利女神。減重的過程不但要戰勝美食，更重要的是戰勝自己。我們希望走出eunice 的每一位女性都是自己的人生勝利組。</p>
+          <h1 class="font_size_16 font_color_Black ta-c">品牌使命</h1>
+          <p class="font_size_16 m-t-20 m-b-20">將世界各地特色spa課程引進台灣，將做spa的幸福帶給每一位eunice 的女孩。</p>
+          <h1 class="font_size_16 font_color_Black ta-c">願景</h1>
+          <p class="font_size_16 m-t-20 m-b-20">創造出全然不同的spa 體驗，改造全然不同的spa 生態。讓幸福不是只有在顧客心中，也在每位eunice 的每一位同仁身上。</p>
+        </article>
         <article>
           <div class="copyright">
             <p>秒創超網訂購專線</p>
@@ -184,6 +175,17 @@
       </article>
     </section>
 
+    <!-- footer無切換圖片 -->
+    <!-- <footer class="footer_menu_wrap Border">
+      <ul>
+        <li class="menu_icon member"><a href="#">會員專區</a></li>
+        <li class="menu_icon order"><a href="#">訂單查詢</a></li>
+        <li class="menu_icon buy"><a href="#">結帳</a></li>
+        <li class="menu_icon fbmsg"><a href="#">線上客服</a></li>
+        <li class="menu_icon contact"><a href="#">關於我們</a></li>
+      </ul>
+    </footer> -->
+    <!-- footer切換圖片 -->
     <!-- footer無切換圖片 -->
     <!-- <footer class="footer_menu_wrap Border">
       <ul>
