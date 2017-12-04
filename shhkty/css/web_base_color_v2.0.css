@@ -301,19 +301,19 @@ select{
 	color: #666;
 }
 input:focus {
-	border-color: #F29C9F;
-	box-shadow: 0 0 5px #F29C9F;
+	border-color: #A3CF8A;
+	box-shadow: 0 0 5px #A3CF8A;
 }
 select:focus{
-	border-color: #F29C9F;
-	box-shadow: 0 0 5px #F29C9F;
+	border-color: #A3CF8A;
+	box-shadow: 0 0 5px #A3CF8A;
 }
 .gender_wrap input:checked + label,
 .payment_method_wrap input:checked + label,
 input:checked{
-	background-color: #F29C9F;
+	background-color: #A3CF8A;
 	border-color: #fff;
-	box-shadow: 0 0 5px #F29C9F;
+	box-shadow: 0 0 5px #A3CF8A;
 	color: #fff;
 }
 
@@ -343,12 +343,12 @@ input:checked{
 	color: #666;
 }
 input:focus {
-	border-color: #F29C9F;
-	box-shadow: 0 0 5px #F29C9F;
+	border-color: #A3CF8A;
+	box-shadow: 0 0 5px #A3CF8A;
 }
 select:focus{
-	border-color: #F29C9F;
-	box-shadow: 0 0 5px #F29C9F;
+	border-color: #A3CF8A;
+	box-shadow: 0 0 5px #A3CF8A;
 }
 .btn:hover, .btn:focus, .btn.focus{
 	color: #fff;
