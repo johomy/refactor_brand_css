@@ -23,7 +23,7 @@ hr{
 }
 /*20171003修改 原color:#9bd5e0;*/
 .basic_border_color{
-	border-color: #c30d23;
+	border-color: #46809a;
 }
 /*20171006修改 原color:#9bd5e0;*/
 .active{
@@ -31,11 +31,11 @@ hr{
 }
 /*20171003修改 原background:#9bd5e0;*/
 .basic_button_color_one{
-	background-color: #c30d23;
+	background-color: #46809a;
 	color: #fff;
 }
 .basic_button_color_two{
-	background-color: #46809a;
+	background: #333;
 	color: #fff;
 }
 .basic_button_color_three{
