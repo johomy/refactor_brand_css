@@ -755,3 +755,6 @@ select{
 	float: right;
 	text-align: left;
 }
+.header_mid_wrap img{
+	height: 60px;
+}
