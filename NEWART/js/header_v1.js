@@ -15,6 +15,7 @@ $(function() {
   //點擊hamburger_icon選單(Header)
   $(".hamburger_icon").click(function() {  
     $(".search_wrap").hide(); //搜尋關鍵字隱藏
+    $(".home_wrap").hide(); //20180118
     $(".content_left").toggle("slide",300); //Menu內容
     $(".content_right").toggle("slide",300); //內容
   });
@@ -22,8 +23,17 @@ $(function() {
   $(".search_wrap").hide();
   $(".search_icon").click(function() {
     $(".search_wrap" ).toggle("blind",300); //搜尋關鍵字滑出
+    $(".home_wrap").hide(); //20180118
     $(".content_left").hide(); //Menu內容隱藏
     $(".content_right").show(); //內容顯示
+  });
+  //點擊home_icon搜尋 20180118
+  $(".home_wrap").hide();
+  $(".home_icon").click(function() {
+    $(".home_wrap" ).toggle("blind",300);
+    $(".search_wrap").hide();
+    $(".content_left").hide();
+    $(".content_right").show();
   });
   // gotop設定
   $(".gotop_icon").hide()  

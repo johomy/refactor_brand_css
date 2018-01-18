@@ -82,6 +82,20 @@ hr{	margin: 0; }
 	height:30px;
 }
 /*20171002修改 原width:25px; height:25px;*/
+.home_wrap{
+	width:100%;
+	position:absolute;
+	top:60px;
+	right: 0px;
+	z-index:10;
+}
+.home_bar li{
+	text-align: center;
+}
+.home_bar a{
+	width: 95%;
+	margin: 0 auto;
+}
 /*-----搜尋 icon-----*/
 .search_icon{
 	width:12%;

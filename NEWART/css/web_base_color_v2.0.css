@@ -57,6 +57,11 @@ hr{
 .header_logo_black{
 	color: #000;
 }
+/*-----首頁 icon-----*/
+.home_bar a{
+	background: #666;
+	color: #fff;
+}
 /*-----搜尋 icon-----*/
 .search_bar {
 	border-color: #666;

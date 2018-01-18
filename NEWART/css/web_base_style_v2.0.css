@@ -18,6 +18,15 @@ body {
 	font-weight:bold;
 	line-height:60px;
 }
+/*-----首頁 icon-----*/
+.home_bar li{
+	padding: 15px 0;
+}
+.home_bar a{
+	line-height: 36px;
+	border-radius: 5px;
+	box-shadow: inset 1px 3px 10px rgba(255,255,255,.5);
+}
 /*-----搜尋 icon-----*/
 .search_bar {
 	border:1px solid;
