@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:"蘋果儷中黑", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+	word-break: normal;
+	text-align:justify;
+	font-size: 16px;
+}
+
+/*-----hamburger icon-----*/
+.navbar_toggle .icon_bar {
+	transition: all 500ms ease-in-out;
+}
+.navbar_toggle.transform .icon_bar:nth-of-type(1) {
+	transform: rotate(45deg);
+}
+.navbar_toggle.transform .icon_bar:nth-of-type(2) {
+	opacity: 0;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+.navbar_toggle.transform .icon_bar:nth-of-type(3) {
+	transform: rotate(-45deg);
+}
+/*-----nav_item-----*/
+.nav_item_wrap li {
+	line-height: 40px;
+}
+.nav_item {
+	border-right: 1px solid;
+}
+.nav_item:last-child {
+	border-right: 0;
+}
+/*-----header 網站名稱-----*/
+.header_logo {
+	font-size:22px;
+	font-weight:bold;
+	line-height:60px;
+}
+/*-----hamburger content-----*/
+.hamburger_list_wrap .hamburger_title{
+	padding: 15px;
+	border-bottom: 1px solid;
+}
+.hamburger_show li{
+	padding: 15px 25px;
+}
+.hamburger_show {
+	border-bottom: 1px solid;
+}
+.arrows {
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+}
+.arrow-down {
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+.arrow-up {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+/*-----會員登入-----*/
+.member_login_wrap{
+	padding: 8px 10px 8px 15px;
+	border-bottom: 1px solid;
+}
+.member_login_wrap a{
+	line-height: 36px;
+}
+.member_login_wrap .login_btn{
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: inset 1px 3px 10px rgba(255,255,255,.5);
+}
+/*-----會員專區 member header-----*/
+.member_header_wrap{
+	font-size:18px;
+	font-weight: bold;
+	line-height:52px;
+	border-bottom: 1px solid;
+}
+.member_title_wrap{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.logout_btn{
+	font-size:14px;
+	line-height:36px;
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+}
+/*-----content_logo_wrap-----*/
+.content_logo_wrap {
+ 	padding-bottom: 100%;
+}
+.content_logo_wrap img{
+	padding: 10px;
+}
+/*-----horizontal_Banner-----*/
+.horizontal_banner_wrap {
+ 	padding-bottom: 50%;
+}
+/*-----product_slick_wrap-----*/
+.variable-width img{
+	padding: 10px;
+}
+.slick-prev:before, .slick-next:before{
+	font-size: 40px;
+	line-height: 40px;
+	opacity: .2;
+}
+/*-----footer_menu_wrap-----*/
+.footer_menu > li {
+	padding: 20px;
+}
+.footer_menu h5 {
+	font-weight: bold;
+}
+.meun_item {
+	padding: 10px 0px;
+}
+/*----footer icon----*/
+.meun_item_icon li {
+	padding: 10px;
+}
+/*-----input style-----*/
+.InputStyle input{
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 5px;/* Opera 10.50 and later (CSS3 standard) */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+	transition: 0.35s ease-in-out;
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+/*-----footer button style-----*/
+.button_style a{
+	border: 1px solid;
+	line-height: 40px;
+}
+
+/*-----question and answer wrap-----*/
+#question_menu > li {
+	padding-top: 20px;
+}
+#question_menu label {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
+.answer p {
+	line-height: 26px;
+	padding: 0px 20px;
+}
+.answer ol{
+	padding: 0px 20px;
+}
+.answer .disc li {
+	list-style-type: disc;
+}
+.answer .decimal li {
+	list-style-type: decimal;
+}
+/*-----article_wrap-----*/
+.article_wrap {
+	padding: 10px 10px 50px 10px;
+}
+.article_wrap h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.article_wrap h2 {
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.article_wrap p {
+	line-height: 26px;
+    padding: 0px 20px;
+}
+.article_wrap ol li {
+	list-style-type: disc;
+}
+/*-----directory_wrap-----*/
+.directory_title{
+	font-weight: bold;
+	padding: 15px;
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow:2px 2px 5px rgba(0,0,0,0.1);
+}
+.directory_show li{
+	padding: 15px 25px;
+}

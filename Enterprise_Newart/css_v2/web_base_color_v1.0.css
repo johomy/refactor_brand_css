@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/*-----官網整體色系-----*/
+hr{
+	border-color: #ddd;
+}
+.basic_color{
+	background: #fff;
+}
+/*-----hamburger icon-----*/
+.header_wrap{
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5)
+}
+.icon_bar{
+	background: #000;
+}
+/*-----nav_item-----*/
+.nav_item_wrap {
+	background: rgba(0,0,0,.7);
+}
+.nav_item {
+	border-right-color: #fff;
+}
+.nav_item a{
+	color: #fff;
+}
+/*-----hamburger content-----*/
+.hamburger_list_wrap .hamburger_title {
+	background-color: #fff;
+	border-bottom-color: #ddd; 
+}
+.hamburger_list_wrap .hamburger_title a{
+	color: #666;
+}
+#hamburger_menu .hamburger_show a {
+	color: #666;
+}
+.hamburger_show {
+	border-bottom-color: #ddd;
+}
+.arrows {
+	border-color: #666;
+}
+/*-----會員登入-----*/
+.member_login_wrap{
+	background: #fff;
+	border-bottom-color: #ddd;
+}
+.member_login_wrap a{
+	color: #000;
+}
+.member_login_wrap .login_btn{
+	background: #333;
+	color: #fff;
+}
+/*-----會員專區 member header-----*/
+.member_header_wrap{
+	background:#fff;
+	color:#000;
+	border-bottom-color: #ddd;
+}
+.member_title_wrap{
+	background: #b3b3b3;
+	color: #fff;
+}
+.logout_btn{
+	background:#333;
+}
+.logout_btn a{
+	color:#fff;
+}
+/*-----product_slick_wrap-----*/
+.slick-prev:before, .slick-next:before{
+	color: #333;
+}
+/*-----footer_menu_wrap-----*/
+.footer_menu_wrap {
+	background: #eeeeee;
+}
+.footer_menu h5 {
+	color: #666;
+}
+/*-----input style-----*/
+.InputStyle input{
+	background-color: #f9f9f9;
+	border-color: #b3b3b3;
+	color: #666;
+}
+/*-----footer button style-----*/
+.button_style a{
+	border-color: #666;
+}
+.button_style_l a{
+	color: #666;
+	background: #f4f4f4;
+}
+.button_style_r a{
+	color: #fff;
+	background: #666;
+}
+
+/*-----question and answer wrap-----*/
+#question_menu label {
+	border-bottom-color: #ddd;
+}
+.answer p {
+	color: #666;
+}
+.answer ol li {
+	color: #666;
+}
+/*-----article_wrap-----*/
+.article_wrap p {
+	color: #666;
+}
+.article_wrap li {
+	color: #666;
+}
+/*-----directory_wrap-----*/
+.directory_title {
+	color: #666;
+	border-color: #ddd;
+	background: rgba(255,255,255,0.5);
+}
+.directory_show li{
+	background: rgba(255,255,255,0.5);
+}
+.directory_title a {
+	color: #666;
+}
+.directory_show a {
+	color: #666;
+}

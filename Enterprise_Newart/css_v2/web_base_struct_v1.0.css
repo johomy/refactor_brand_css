@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+img{ width: 100%; height: auto; }
+hr{	margin: 0; }
+
+.Border{
+	/*border:1px solid #888;*/
+}
+.main_wrap {
+	width: 100%;
+	margin: 0 auto;
+	position:relative;
+}
+/*-----gotop icon 共用-----*/
+.gotop_icon {
+	position: fixed;
+	right: 10px;
+	bottom: 30px;
+	z-index: 3;
+}
+.gotop_icon img {
+	width:45px;
+	height:45px;
+}
+/*-----header_wrap 共用-----*/
+.header_wrap {
+	width:100%;
+	height:60px;
+	position:fixed;
+	z-index: 5;
+}
+/*-----hamburger icon-----*/
+.hamburger_icon {
+	width:15%;
+	height:60px;
+	padding:13px 0 0 12px;
+	cursor:pointer;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.icon_bar {
+	display:block;
+	width:24px;
+	height:4px;
+	margin-top:6px;
+	border-radius: 2px;
+}
+.navbar_toggle .icon_bar {
+	position: relative;
+}
+.navbar_toggle.transform .icon_bar:nth-of-type(1) {
+	top: 10px;
+}
+.navbar_toggle.transform .icon_bar:nth-of-type(3) {
+	top: -10px;	
+}
+/*-----nav_item-----*/
+.nav_item_wrap {
+	width: 100%;
+	height: 40px;
+}
+.nav_item_wrap li {
+	text-align: center;
+}
+/*-----header 網站名稱-----*/
+.header_mid {
+	width:55%;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.header_logo_img{
+	width: 120px;
+	margin-top: 18px;
+}
+/*-----hamburger content-----*/
+.content_left {
+	display:none;
+}
+.hamburger_list_wrap {
+	width:100%;
+	position:relative;
+	z-index: 5;
+}
+.hamburger_list_wrap > ul{
+	width: 100%;
+	cursor:pointer;
+}
+.hamburger_list_wrap .hamburger_title{
+	width: 100%;
+}
+.hamburger_list_wrap .hamburger_show{
+	display: none;
+	width: 100%;
+}
+.arrows {
+	width: 10px;
+	height: 10px;
+	float: right;
+	margin: 5px;
+}
+/*-----會員登入-----*/
+.member_login_wrap{
+	width: 100%;
+}
+.member_login_wrap .login_btn{
+	width: 60px;
+	float: right;
+	text-align: center;
+}
+/*-----會員專區 member header-----*/
+.member_header_wrap{
+	width:100%;
+	text-align:center;
+	position: relative;
+}
+.member_title_wrap{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.member_icon {
+	margin:0 3px;
+}
+.member_icon img {
+	width:30px;
+	height:30px;
+	vertical-align:-5px;
+}
+.logout_btn{
+	width: 60px;
+	margin-top: 7px;
+	text-align: center;
+}
+/*-----content_logo_wrap-----*/
+.content_logo_wrap {
+	width: 100%;
+  	height: 0;
+  	overflow: hidden;
+}
+/*-----horizontal_Banner-----*/
+.horizontal_banner_wrap {
+	width: 100%;
+  	height: 0;
+  	overflow: hidden;
+}
+/*-----product_slick_wrap-----*/
+.product_slick_wrap {
+	width: 100%;
+	margin: 20px 0px;
+}
+@media (min-width:320px) and (max-width:768px){
+	.variable-width img{
+		max-width: 220px;
+	}
+}
+.slick-prev, .slick-next{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+.slick-prev{
+	left: 0px;
+}
+.slick-next{
+	right: 0px;
+}
+/*-----footer_menu_wrap-----*/
+.meun_item {
+	width: 100%;
+	text-align: center;
+}
+/*----footer icon----*/
+.meun_item_icon li {
+	display: inline-block;
+}
+.meun_item_icon img {
+	width: 40px;
+	height: 40px;
+}
+/*-----input style-----*/
+.InputStyle input{
+	width: 100%;
+	margin: 5px 0;
+}
+/*-----footer button style-----*/
+.ButtonStyle .button_style{
+	width: 48%;
+}
+.button_style a{
+	border-radius: 5px;
+	text-align: center;
+}
+
+/*-----question and answer wrap-----*/
+#question_menu li {
+	margin: 10px;
+}
+#question_menu label {
+	width: 100%;
+}
+#question_menu label img {
+	width: 30px;
+}
+.answer {
+	display: none;
+}
+.answer p {
+	margin: 20px 0px;
+}
+.answer ol{
+	margin: 20px 0px;
+}
+/*-----article_wrap-----*/
+.article_wrap {
+	max-width: 768px;
+	margin: 0 auto;
+}
+.article_wrap h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.article_wrap h2 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+.article_wrap p {
+    margin: 20px 0px;
+}
+.article_wrap ul li {
+	margin: 10px 20px;
+}
+.article_wrap ol li {
+	margin: 10px 20px;
+}
+.certificate_wrap {
+	text-align: center;
+}
+.certificate_wrap img {
+	max-width: 500px;
+}
+/*-----youtube影片規格-----*/
+.embed-container {
+	width: 100%;
+	height: 355px;
+	text-align:center;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	width: 100%;
+	height: 100%;
+	max-width:600px;
+	max-height:355px;
+}
+/*-----directory_wrap-----*/
+.directory_wrap {
+	width:100%;
+	position:relative;
+}
+.directory_wrap > ul{
+	width: 100%;
+	cursor:pointer;
+}
+.directory_title{
+	width: 100%;
+}
+.directory_show{
+	width: 100%;
+	display: none;
+}
+.directory_show li{
+	margin: 0 5px;
+}
